@@ -2,7 +2,7 @@ export const services = [
   {
     "id": "silentguardacoustics-door",
     "title": "Silent Guard Acoustics  Doors",
-    "featureImage": "/images/services/Silent Guard AcousticsingDoors.jpg",
+    "featureImage": "/images/services/SilentGuardAcousticsDoors.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -45,11 +45,11 @@ export const services = [
   {
     "id": "silentguardacoustics-walls",
     "title": "Silent Guard Acoustics Walls",
-    "featureImage": "/images/services/Silent Guard Acousticsing-walls.jpg",
+    "featureImage": "/images/services/silentguardacoustics-walls.jpg",
     "content": [
       {
         "type": "paragraph",
-        "content": "Wall Silent Guard Acousticsing is achieved primarily through two core methods: adding mass to block sound transmission and decoupling structures to prevent vibration transfer. By increasing the density of the wall surface, sound waves are either reflected or absorbed and converted into heat energy. Additionally, isolating wall layers from one another ensures that vibrations don’t pass through adjoining surfaces. At Silent Guard Acoustics, we apply both techniques using industry-grade materials tailored to each project’s specific needs-delivering effective and reliable sound insulation."
+        "content": "Wall Silent Guard Acoustics is achieved primarily through two core methods: adding mass to block sound transmission and decoupling structures to prevent vibration transfer. By increasing the density of the wall surface, sound waves are either reflected or absorbed and converted into heat energy. Additionally, isolating wall layers from one another ensures that vibrations don’t pass through adjoining surfaces. At Silent Guard Acoustics, we apply both techniques using industry-grade materials tailored to each project’s specific needs-delivering effective and reliable sound insulation."
       },
       {
         "type": "paragraph",
@@ -60,15 +60,15 @@ export const services = [
   {
     "id": "silentguardacoustics-floors",
     "title": "Silent Guard Acoustics  Floors",
-    "featureImage": "/images/services/Silent Guard Acousticsing-floors.jpg",
+    "featureImage": "/images/services/silentguardacoustics-floors.jpg",
     "content": [
       {
         "type": "paragraph",
-        "content": "Floor Silent Guard Acousticsing plays a critical role in achieving complete acoustic comfort-whether in residential, commercial, or shared living spaces. Depending on the type and intensity of noise, from footsteps and dropped items to loud music or children playing, different strategies must be applied."
+        "content": "Floor Silent Guard Acoustics plays a critical role in achieving complete acoustic comfort-whether in residential, commercial, or shared living spaces. Depending on the type and intensity of noise, from footsteps and dropped items to loud music or children playing, different strategies must be applied."
       },
       {
         "type": "paragraph",
-        "content": "At Silent Guard Acoustics, we design multi-layered floor Silent Guard Acousticsing systems that reduce both airborne and impact noise. By combining dense underlayments, insulation materials, and vibration-isolating layers, we ensure a quieter and more private space-no matter what’s happening above or below."
+        "content": "At Silent Guard Acoustics, we design multi-layered floor Silent Guard Acoustics systems that reduce both airborne and impact noise. By combining dense underlayments, insulation materials, and vibration-isolating layers, we ensure a quieter and more private space-no matter what’s happening above or below."
       },
       {
         "type": "paragraph",
@@ -83,7 +83,7 @@ export const services = [
   {
     "id": "silentguardacoustics-windows",
     "title": "Silent Guard Acoustics  Windows",
-    "featureImage": "/images/services/Silent Guard Acousticsing-Windows-2.jpg",
+    "featureImage": "/images/services/silentguardacoustics-Windows-2.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -157,7 +157,7 @@ export const services = [
   {
     "id": "silentguardacoustics-ceilings",
     "title": "Silent Guard Acoustics  Ceilings",
-    "featureImage": "/images/services/Silent Guard Acousticsing-Ceilings.jpg",
+    "featureImage": "/images/services/silentguardacoustics-Ceilings.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -165,7 +165,7 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "At Silent Guard Acoustics, we offer advanced ceiling Silent Guard Acousticsing solutions that address both impact noise (vibrations caused by movement) and airborne noise (TVs, voices, music, etc.). These sounds not only pass through ceiling surfaces, but also through joists, beams, and structural gaps-often carrying from multiple levels above."
+        "content": "At Silent Guard Acoustics, we offer advanced ceiling Silent Guard Acoustics solutions that address both impact noise (vibrations caused by movement) and airborne noise (TVs, voices, music, etc.). These sounds not only pass through ceiling surfaces, but also through joists, beams, and structural gaps-often carrying from multiple levels above."
       },
       {
         "type": "paragraph",
