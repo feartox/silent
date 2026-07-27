@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { services } from '../data/services';
 import { products } from '../data/catalog';
@@ -27,6 +28,8 @@ const faqs = [
 ];
 
 const Home = () => {
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+
   const categories = [
     { id: 'floors', title: 'Floors', image: '/images/home-cat-floor.webp', link: '/category/floors' },
     { id: 'walls', title: 'Walls', image: '/images/home-cat-wall.webp', link: '/category/walls' },
@@ -144,14 +147,25 @@ const Home = () => {
             </Link>
           </div>
           <div className="video-showcase-right">
-            <div className="video-embed-wrapper">
-              <iframe 
-                src="https://www.youtube.com/embed/9fKA1_FsLWM?rel=0" 
-                title="Soundproofing Projects" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen
-              ></iframe>
+            <div className="video-embed-wrapper" onClick={() => setIsVideoPlaying(true)}>
+              {!isVideoPlaying ? (
+                <div className="video-thumbnail-overlay">
+                  <img src="https://i.ytimg.com/vi/9fKA1_FsLWM/maxresdefault.jpg" alt="Video thumbnail" />
+                  <button className="video-play-btn" aria-label="Play video">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </button>
+                </div>
+              ) : (
+                <iframe 
+                  src="https://www.youtube.com/embed/9fKA1_FsLWM?autoplay=1&rel=0&modestbranding=1&showinfo=0" 
+                  title="Soundproofing Projects" 
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
+                ></iframe>
+              )}
             </div>
           </div>
         </div>
