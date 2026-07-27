@@ -14,24 +14,24 @@ export const categories = [
         "url": "greenglue"
       },
       {
-        "id": "soundproofing-clips",
+        "id": "silentguardacoustics-clips",
         "name": "Silent Guard Acoustics Clips",
         "description": "To reduce footstep and airborne noise, it's crucial to change how floors and ceilings connect. Decoupling walls with clips and channels helps block sound transfer through the structure.",
-        "image": "/images/categories/Soundproofing_Clips.jpg",
-        "url": "Soundproofing-Clips_c_11.html"
+        "image": "/images/categories/silentguardacoustics_Clips.jpg",
+        "url": "silentguardacoustics-Clips_c_11.html"
       },
       {
-        "id": "soundproof-barrier",
+        "id": "silentguardacoustics-barrier",
         "name": "Silent Guard Acoustics Barrier",
         "description": "Silent Guard Acoustics Barrier, or Mass Loaded Vinyl (MLV), is a top noise control solution for walls, floors, and ceilings. Trusted in thousands of projects, it's an industry standard for sound mitigation.",
-        "image": "/images/categories/soundproof-barrier-wall.jpg",
-        "url": "Soundproof-Barrier_c_14.html"
+        "image": "/images/categories/silentguardacoustics-barrier-wall.jpg",
+        "url": "silentguardacoustics-Barrier_c_14.html"
       },
       {
         "id": "acoustical-sealant",
         "name": "Acoustical Sealant",
         "description": "Acoustical Sealant is a water-based sealant that reduces sound transmission in walls, helping to maintain the designed STC (Sound Transmission Class) value. It stays flexible and adheres well to wood, metal, concrete, and gypsum board for lasting Silent Guard Acoustics.",
-        "image": "/images/categories/GREEN GLUE NOISEPROOFING SEALANT.jpg",
+        "image": "/images/categories/GREEN GLUE SILENT GUARD ACOUSTICS SEALANT.jpg",
         "url": "Acoustical-Sealant_c_68.html"
       },
       {
@@ -91,16 +91,16 @@ export const categories = [
         "url": "Green-Glue-Ceilings_c_23.html"
       },
       {
-        "id": "soundproofing-ceilings-clips",
+        "id": "silentguardacoustics-ceilings-clips",
         "name": "Silent Guard Acoustics Ceilings Clips",
         "description": "",
-        "image": "/images/categories/Soundproofing_Ceilings_Clips.jpg",
-        "url": "Soundproofing-Ceilings-Clips_c_25.html"
+        "image": "/images/categories/silentguardacoustics_Ceilings_Clips.jpg",
+        "url": "silentguardacoustics-Ceilings-Clips_c_25.html"
       }
     ]
   },
   {
-    "id": "soundproof-barrier",
+    "id": "silentguardacoustics-barrier",
     "name": "Silent Guard Acoustics Barrier",
     "seoText": "",
     "subcategories": []
@@ -117,11 +117,11 @@ export const categories = [
     "seoText": "<!--\n.learnTop {\n\tfloat: left;\n\twidth: 477px;\n\theight: 182px;\n\t\n}\n\n.learnText {\n\tfloat: left;\n\twidth: 328px;\n\theight: 175px;\n\ttext-align: left;\n}\n.learnRight {\n\twidth: 149px;\n\theight: 106px;\n\tfloat: left;\n}\n\n.field-items {\n\twidth: 757px;\n\tbackground-color: #FFF;\n\tpadding-left: 8px;\n\tpadding-right: 8px;\n\tpadding-top: 10px;\n}\n.field-items a {\n\tfont-weight: bold;\n\ttext-decoration: none;\n\tcolor: #528400;\n\tfont-size: 14px;\n}\n.border {\n\tborder: solid 1px #cdcdcd;\t\n}\n-->\n\n\n\n\nWe encourage you to learn as much as possible about our products, solutions and industry. By being better educated, you may enhance your ability to discover ideas that help you address your particular sound and noise needs. If you don't find the answers or information you need, please contact one of our team members.\n\n\n\n\n\n\n\n\n\n\nSilent Guard Acoustics Step By Step We encourage you to review these articles to gain a better understanding of how our products can help.\nDatasheets To insure complete satisfaction with our products we offer the following datasheets, installation guides & testing reports.\nFloor Silent Guard Acoustics Floors requires a careful evaluation of construction methods & conditions. Learn what products you need to use.\nWall Silent Guard Acoustics Improve your walls with reliable, proven products you can obtain very good results, and stay within your budget.\nIndoor Air Quality Breathe easy because we offer low VOC products.\nLEED Certified Products Many of our products meet LEED Certification standards to help ensure a greener today and tomorrow.",
     "subcategories": [
       {
-        "id": "soundproofing-step-by-step",
+        "id": "silentguardacoustics-step-by-step",
         "name": "Silent Guard Acoustics Step By Step",
         "description": "",
         "image": "/images/categories/placeholder.jpg",
-        "url": "Soundproofing-Step-By-Step_c_29.html"
+        "url": "silentguardacoustics-Step-By-Step_c_29.html"
       },
       {
         "id": "datasheets",
@@ -131,18 +131,18 @@ export const categories = [
         "url": "Datasheets_c_30.html"
       },
       {
-        "id": "floor-soundproofing",
+        "id": "floor-silentguardacoustics",
         "name": "Floor Silent Guard Acoustics",
         "description": "",
         "image": "/images/categories/placeholder.jpg",
         "url": "view_category.asp?cat=54"
       },
       {
-        "id": "wall-soundproofing",
+        "id": "wall-silentguardacoustics",
         "name": "Wall Silent Guard Acoustics",
         "description": "",
         "image": "/images/categories/placeholder.jpg",
-        "url": "soundproofing-good_c_48.html"
+        "url": "silentguardacoustics-good_c_48.html"
       },
       {
         "id": "indoor-air-quality",
@@ -191,9 +191,9 @@ export const products = [
     "subcategoryId": "green-glue"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "green-glue"
   },
@@ -237,154 +237,154 @@ export const products = [
     "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Vinyl-Seam-Tape-2pk-p-20",
     "name": "Vinyl Seam Tape 2pk",
     "image": "/images/products/black_vinyl_seam_tape_1_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Furring-Channel-78-25g-12FT-SINGLE-p-142",
     "name": "Furring Channel- 7/8\", 25g, 12FT-SINGLE",
     "image": "/images/products/furring_channel_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Acoustical-Sealant-1-Box4-tubes-p-95",
     "name": "Acoustical Sealant : 1 Box:4 tubes",
     "image": "/images/products/acoustical_sealant_box4_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Resilmount-A237R-Single-Clip-p-75",
     "name": "Resilmount A237R-Single Clip",
     "image": "/images/products/resilmount-a237r_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
-    "id": "Green-Grue-Noiseproofing-Clips-Box-of-250-p-165",
-    "name": "Green Grue Noiseproofing Clips: Box of 250",
+    "id": "Green-Grue-Silent Guard Acoustics-Clips-Box-of-250-p-165",
+    "name": "Green Grue Silent Guard Acoustics Clips: Box of 250",
     "image": "/images/products/quietclips_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
-    "id": "Green-Glue-Noiseproofing-Clips-Single-Clip-p-166",
-    "name": "Green Glue Noiseproofing Clips: Single Clip",
+    "id": "Green-Glue-Silent Guard Acoustics-Clips-Single-Clip-p-166",
+    "name": "Green Glue Silent Guard Acoustics Clips: Single Clip",
     "image": "/images/products/quietclips_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Isomax-Clip-Single-Clip-p-167",
     "name": "Isomax  Clip: Single Clip",
     "image": "/images/products/isomax-sound-isolation-clip_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Isomax-Clip-Box-of-72-p-168",
     "name": "Isomax  Clip: Box of 72",
     "image": "/images/products/isomax-sound-isolation-clip_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Resilmount-A237R-p-199",
     "name": "Resilmount A237R",
     "image": "/images/products/resilmount-a237r_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Resilmount-MBFR-p-189",
     "name": "Resilmount MBFR",
     "image": "/images/products/mbfr-spla-productimage_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Resilmount-A48R-p-74",
     "name": "Resilmount A48R",
     "image": "/images/products/resilmount-a48r_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Resilmount-A24R-p-77",
     "name": "Resilmount A24R",
     "image": "/images/products/resilmount-a24r_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Resilmount-A237-p-76",
     "name": "Resilmount A237",
     "image": "/images/products/resilmount-a237_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproofing-clips"
+    "subcategoryId": "silentguardacoustics-clips"
   },
   {
     "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
     "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproof-barrier"
+    "subcategoryId": "silentguardacoustics-barrier"
   },
   {
     "id": "Vinyl-Seam-Tape-2pk-p-20",
     "name": "Vinyl Seam Tape 2pk",
     "image": "/images/products/black_vinyl_seam_tape_1_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproof-barrier"
+    "subcategoryId": "silentguardacoustics-barrier"
   },
   {
     "id": "Furring-Channel-78-25g-12FT-SINGLE-p-142",
     "name": "Furring Channel- 7/8\", 25g, 12FT-SINGLE",
     "image": "/images/products/furring_channel_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproof-barrier"
+    "subcategoryId": "silentguardacoustics-barrier"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproof-barrier"
+    "subcategoryId": "silentguardacoustics-barrier"
   },
   {
     "id": "Acoustical-Sealant-1-Box4-tubes-p-95",
     "name": "Acoustical Sealant : 1 Box:4 tubes",
     "image": "/images/products/acoustical_sealant_box4_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproof-barrier"
+    "subcategoryId": "silentguardacoustics-barrier"
   },
   {
-    "id": "Soundproof-BarrierWeight-2-lb-Roll-4ft-x-25-ft--p-130",
+    "id": "silentguardacoustics-BarrierWeight-2-lb-Roll-4ft-x-25-ft--p-130",
     "name": "Silent Guard Acoustics Barrier:Weight 2 lb, Roll  4ft x 25 ft",
-    "image": "/images/products/soundproof_barrier_1_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_1_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproof-barrier"
+    "subcategoryId": "silentguardacoustics-barrier"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
-    "subcategoryId": "soundproof-barrier"
+    "subcategoryId": "silentguardacoustics-barrier"
   },
   {
     "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
@@ -408,9 +408,9 @@ export const products = [
     "subcategoryId": "acoustical-sealant"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "acoustical-sealant"
   },
@@ -450,9 +450,9 @@ export const products = [
     "subcategoryId": "furring-channels"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "furring-channels"
   },
@@ -492,9 +492,9 @@ export const products = [
     "subcategoryId": "wall-accessories"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "wall-accessories"
   },
@@ -541,9 +541,9 @@ export const products = [
     "subcategoryId": "wood-floors"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "wood-floors"
   },
@@ -604,9 +604,9 @@ export const products = [
     "subcategoryId": "carpet-floors"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "carpet-floors"
   },
@@ -646,9 +646,9 @@ export const products = [
     "subcategoryId": "serenity-ultimate-underlay"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "serenity-ultimate-underlay"
   },
@@ -709,9 +709,9 @@ export const products = [
     "subcategoryId": "green-glue-ceilings"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "ceilings",
     "subcategoryId": "green-glue-ceilings"
   },
@@ -741,91 +741,91 @@ export const products = [
     "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Vinyl-Seam-Tape-2pk-p-20",
     "name": "Vinyl Seam Tape 2pk",
     "image": "/images/products/black_vinyl_seam_tape_1_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Furring-Channel-78-25g-12FT-SINGLE-p-142",
     "name": "Furring Channel- 7/8\", 25g, 12FT-SINGLE",
     "image": "/images/products/furring_channel_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Acoustical-Sealant-1-Box4-tubes-p-95",
     "name": "Acoustical Sealant : 1 Box:4 tubes",
     "image": "/images/products/acoustical_sealant_box4_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
-    "id": "Green-Grue-Noiseproofing-Clips-Box-of-250-p-165",
-    "name": "Green Grue Noiseproofing Clips: Box of 250",
+    "id": "Green-Grue-Silent Guard Acoustics-Clips-Box-of-250-p-165",
+    "name": "Green Grue Silent Guard Acoustics Clips: Box of 250",
     "image": "/images/products/quietclips_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Isomax-Clip-Single-Clip-p-167",
     "name": "Isomax  Clip: Single Clip",
     "image": "/images/products/isomax-sound-isolation-clip_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Isomax-Clip-Box-of-72-p-168",
     "name": "Isomax  Clip: Box of 72",
     "image": "/images/products/isomax-sound-isolation-clip_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Resilmount-A48R-p-74",
     "name": "Resilmount A48R",
     "image": "/images/products/resilmount-a48r_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Resilmount-A237R-p-199",
     "name": "Resilmount A237R",
     "image": "/images/products/resilmount-a237r_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Resilmount-A96R-p-188",
     "name": "Resilmount A96R",
     "image": "/images/products/resilmount-a96r_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Resilmount-A48R-p-198",
     "name": "Resilmount A48R",
     "image": "/images/products/resilmount-a48r_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Resilmount-A24R-p-77",
     "name": "Resilmount A24R",
     "image": "/images/products/resilmount-a24r_thumbnail.jpg",
     "categoryId": "ceilings",
-    "subcategoryId": "soundproofing-ceilings-clips"
+    "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
     "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
@@ -849,9 +849,9 @@ export const products = [
     "subcategoryId": null
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
@@ -863,16 +863,16 @@ export const products = [
     "subcategoryId": null
   },
   {
-    "id": "Soundproof-BarrierWeight-2-lb-Roll-4ft-x-25-ft--p-130",
+    "id": "silentguardacoustics-BarrierWeight-2-lb-Roll-4ft-x-25-ft--p-130",
     "name": "Silent Guard Acoustics Barrier:Weight 2 lb, Roll  4ft x 25 ft",
-    "image": "/images/products/soundproof_barrier_1_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_1_thumbnail.jpg",
     "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
@@ -898,9 +898,9 @@ export const products = [
     "subcategoryId": null
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "accessories",
     "subcategoryId": null
   },
@@ -979,35 +979,35 @@ export const products = [
     "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "soundproofing-step-by-step"
+    "subcategoryId": "silentguardacoustics-step-by-step"
   },
   {
     "id": "Vinyl-Seam-Tape-2pk-p-20",
     "name": "Vinyl Seam Tape 2pk",
     "image": "/images/products/black_vinyl_seam_tape_1_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "soundproofing-step-by-step"
+    "subcategoryId": "silentguardacoustics-step-by-step"
   },
   {
     "id": "Furring-Channel-78-25g-12FT-SINGLE-p-142",
     "name": "Furring Channel- 7/8\", 25g, 12FT-SINGLE",
     "image": "/images/products/furring_channel_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "soundproofing-step-by-step"
+    "subcategoryId": "silentguardacoustics-step-by-step"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "soundproofing-step-by-step"
+    "subcategoryId": "silentguardacoustics-step-by-step"
   },
   {
     "id": "Acoustical-Sealant-1-Box4-tubes-p-95",
     "name": "Acoustical Sealant : 1 Box:4 tubes",
     "image": "/images/products/acoustical_sealant_box4_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "soundproofing-step-by-step"
+    "subcategoryId": "silentguardacoustics-step-by-step"
   },
   {
     "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
@@ -1031,9 +1031,9 @@ export const products = [
     "subcategoryId": "datasheets"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "datasheets"
   },
@@ -1049,70 +1049,70 @@ export const products = [
     "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "floor-soundproofing"
+    "subcategoryId": "floor-silentguardacoustics"
   },
   {
     "id": "Vinyl-Seam-Tape-2pk-p-20",
     "name": "Vinyl Seam Tape 2pk",
     "image": "/images/products/black_vinyl_seam_tape_1_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "floor-soundproofing"
+    "subcategoryId": "floor-silentguardacoustics"
   },
   {
     "id": "Furring-Channel-78-25g-12FT-SINGLE-p-142",
     "name": "Furring Channel- 7/8\", 25g, 12FT-SINGLE",
     "image": "/images/products/furring_channel_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "floor-soundproofing"
+    "subcategoryId": "floor-silentguardacoustics"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "floor-soundproofing"
+    "subcategoryId": "floor-silentguardacoustics"
   },
   {
     "id": "Acoustical-Sealant-1-Box4-tubes-p-95",
     "name": "Acoustical Sealant : 1 Box:4 tubes",
     "image": "/images/products/acoustical_sealant_box4_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "floor-soundproofing"
+    "subcategoryId": "floor-silentguardacoustics"
   },
   {
     "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
     "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "wall-soundproofing"
+    "subcategoryId": "wall-silentguardacoustics"
   },
   {
     "id": "Vinyl-Seam-Tape-2pk-p-20",
     "name": "Vinyl Seam Tape 2pk",
     "image": "/images/products/black_vinyl_seam_tape_1_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "wall-soundproofing"
+    "subcategoryId": "wall-silentguardacoustics"
   },
   {
     "id": "Furring-Channel-78-25g-12FT-SINGLE-p-142",
     "name": "Furring Channel- 7/8\", 25g, 12FT-SINGLE",
     "image": "/images/products/furring_channel_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "wall-soundproofing"
+    "subcategoryId": "wall-silentguardacoustics"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "wall-soundproofing"
+    "subcategoryId": "wall-silentguardacoustics"
   },
   {
     "id": "Acoustical-Sealant-1-Box4-tubes-p-95",
     "name": "Acoustical Sealant : 1 Box:4 tubes",
     "image": "/images/products/acoustical_sealant_box4_thumbnail.jpg",
     "categoryId": "instructionals",
-    "subcategoryId": "wall-soundproofing"
+    "subcategoryId": "wall-silentguardacoustics"
   },
   {
     "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
@@ -1136,9 +1136,9 @@ export const products = [
     "subcategoryId": "indoor-air-quality"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "indoor-air-quality"
   },
@@ -1171,9 +1171,9 @@ export const products = [
     "subcategoryId": "leed-certified-products"
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "leed-certified-products"
   },
@@ -1206,9 +1206,9 @@ export const products = [
     "subcategoryId": null
   },
   {
-    "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
+    "id": "silentguardacoustics-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
     "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
-    "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
+    "image": "/images/products/silentguardacoustics_barrier_2_thumbnail.jpg",
     "categoryId": "green-products",
     "subcategoryId": null
   },

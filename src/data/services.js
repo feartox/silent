@@ -1,6 +1,6 @@
 export const services = [
   {
-    "id": "soundproof-door",
+    "id": "silentguardacoustics-door",
     "title": "Silent Guard Acoustics  Doors",
     "featureImage": "/images/services/Silent Guard AcousticsingDoors.jpg",
     "content": [
@@ -34,16 +34,16 @@ export const services = [
       },
       {
         "type": "image",
-        "src": "/images/services/SoundproofingDoors2.jpg"
+        "src": "/images/services/SilentGuardAcousticsDoors2.jpg"
       },
       {
         "type": "image",
-        "src": "/images/services/SoundproofingDoors3.jpg"
+        "src": "/images/services/SilentGuardAcousticsDoors3.jpg"
       }
     ]
   },
   {
-    "id": "soundproofing-walls",
+    "id": "silentguardacoustics-walls",
     "title": "Silent Guard Acoustics Walls",
     "featureImage": "/images/services/Silent Guard Acousticsing-walls.jpg",
     "content": [
@@ -58,7 +58,7 @@ export const services = [
     ]
   },
   {
-    "id": "soundproof-floors",
+    "id": "silentguardacoustics-floors",
     "title": "Silent Guard Acoustics  Floors",
     "featureImage": "/images/services/Silent Guard Acousticsing-floors.jpg",
     "content": [
@@ -81,7 +81,7 @@ export const services = [
     ]
   },
   {
-    "id": "soundproofing-windows",
+    "id": "silentguardacoustics-windows",
     "title": "Silent Guard Acoustics  Windows",
     "featureImage": "/images/services/Silent Guard Acousticsing-Windows-2.jpg",
     "content": [
@@ -103,7 +103,7 @@ export const services = [
       },
       {
         "type": "image",
-        "src": "/images/services/Soundproofing-Windows.jpg"
+        "src": "/images/services/silentguardacoustics-Windows.jpg"
       }
     ]
   },
@@ -155,7 +155,7 @@ export const services = [
     ]
   },
   {
-    "id": "soundproofing-ceilings",
+    "id": "silentguardacoustics-ceilings",
     "title": "Silent Guard Acoustics  Ceilings",
     "featureImage": "/images/services/Silent Guard Acousticsing-Ceilings.jpg",
     "content": [
@@ -178,7 +178,7 @@ export const services = [
     ]
   },
   {
-    "id": "soundproof-phone-meeting-booth",
+    "id": "silentguardacoustics-phone-meeting-booth",
     "title": "Silent Guard Acoustics Phone &  Meeting Booths",
     "featureImage": "/images/services/Silent Guard AcousticsPhoneMeetingBooths2.jpg",
     "content": [

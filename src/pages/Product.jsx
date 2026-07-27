@@ -46,7 +46,7 @@ const Product = () => {
 
             <div className="product-description mt-2">
               <h3>Overview</h3>
-              <p>{product.description || 'Professional grade soundproofing material designed to block unwanted noise and enhance comfort in your environment. Suitable for commercial and residential applications.'}</p>
+              <p>{product.description || 'Professional grade silentguardacoustics material designed to block unwanted noise and enhance comfort in your environment. Suitable for commercial and residential applications.'}</p>
             </div>
             <div className="product-actions-large mt-3">
               <Link to="/contact" className="btn btn-primary">Contact for Orders</Link>

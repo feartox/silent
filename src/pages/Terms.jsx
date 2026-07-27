@@ -21,7 +21,7 @@ const Terms = () => {
 
           <div className="content-block mb-4">
             <h4>2. Services Overview</h4>
-            <p>Silent Guard Acoustics provides soundproofing and acoustical solutions, including consultations, material recommendations, and installation services. All information provided on this website is for informational purposes and is subject to change without notice.</p>
+            <p>Silent Guard Acoustics provides silentguardacoustics and acoustical solutions, including consultations, material recommendations, and installation services. All information provided on this website is for informational purposes and is subject to change without notice.</p>
           </div>
 
           <div className="content-block mb-4">

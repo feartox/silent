@@ -53,14 +53,14 @@ const Contact = () => {
     <div className="contact-page animate-fade-in">
       <SEO 
         title="Contact Us" 
-        description="Get in touch with Silent Guard Acoustics for a free consultation on soundproofing your residential or commercial space." 
+        description="Get in touch with Silent Guard Acoustics for a free consultation on silentguardacoustics your residential or commercial space." 
       />
 
       <section className="contact-header bg-light py-5 text-center">
         <div className="container">
           <div className="contact-header text-center mb-4 animate-fade-in-up">
             <h1 className="section-title"><span>Contact Us</span></h1>
-            <p className="contact-subtitle">Get in touch with our soundproofing experts for a free consultation or general inquiries.</p>
+            <p className="contact-subtitle">Get in touch with our silentguardacoustics experts for a free consultation or general inquiries.</p>
           </div>
         </div>
       </section>
@@ -135,7 +135,7 @@ const Contact = () => {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="interest">What are you looking to soundproof?</label>
+                  <label htmlFor="interest">What are you looking to silentguardacoustics?</label>
                   <select id="interest" name="interest" value={formData.interest} onChange={handleChange} required>
                     <option value="" disabled>Select an option</option>
                     <option value="walls">Walls</option>
