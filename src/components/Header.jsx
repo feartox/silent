@@ -29,9 +29,9 @@ const Header = () => {
       <div className="top-bar">
         <div className="container top-bar-content">
           <div className="contact-info">
-            <a href="mailto:info@silentguardacoustics.com" className="contact-item">
+            <Link to="/contact" className="contact-item">
               <span>SEND A MESSAGE</span>
-            </a>
+            </Link>
           </div>
           <div className="slogan">We keep quiet.</div>
         </div>
