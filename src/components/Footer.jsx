@@ -63,7 +63,7 @@ const Footer = () => {
             </p>
             <p>
               <Mail size={18} />
-              <a href="mailto:info@silentguardacoustics.com">info@silentguardacoustics.com</a>
+              <a href="mailto:info@silentguardacousticspro.com">info@silentguardacousticspro.com</a>
             </p>
           </div>
         </div>

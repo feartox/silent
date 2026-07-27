@@ -93,7 +93,7 @@ const Contact = () => {
                 <div className="info-icon"><Mail size={24} /></div>
                 <div className="info-text">
                   <h4>Email Us</h4>
-                  <p><a href="mailto:info@silentguardacoustics.com">info@silentguardacoustics.com</a></p>
+                  <p><a href="mailto:info@silentguardacousticspro.com">info@silentguardacousticspro.com</a></p>
                 </div>
               </div>
 
