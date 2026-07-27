@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="newsletter-content">
             <div className="newsletter-text">
               <h3>Stay Updated</h3>
-              <p>Sign up for our newsletter to receive expert soundproofing tips and exclusive offers.</p>
+              <p>Sign up for our newsletter to receive expert Silent Guard Acoustics tips and exclusive offers.</p>
             </div>
             <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
               <input type="email" placeholder="Enter your email address" aria-label="Email" />

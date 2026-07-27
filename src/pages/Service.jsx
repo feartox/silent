@@ -5,20 +5,20 @@ import './Service.css';
 
 const faqs = [
   {
-    question: "How do I start the soundproofing process?",
+    question: "How do I start the Silent Guard Acoustics process?",
     answer: "After an initial consultation, we assess your space and noise concerns. Based on that, we offer a tailored plan that fits your needs, timeline, and budget."
   },
   {
-    question: "How much does soundproofing cost?",
+    question: "How much does Silent Guard Acoustics cost?",
     answer: "Pricing depends on the scope of work, the materials used, and the surfaces to be treated (walls, windows, floors, etc.). We provide a detailed quote after evaluating your space."
   },
   {
     question: "Can you soundproof existing structures?",
-    answer: "Yes! We specialize in retrofitting soundproofing solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
+    answer: "Yes! We specialize in retrofitting Silent Guard Acoustics solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
   },
   {
     question: "How long does installation take?",
-    answer: "Most residential soundproofing projects are completed within 1–3 days, depending on the size and complexity. Commercial spaces may require additional time."
+    answer: "Most residential Silent Guard Acoustics projects are completed within 1–3 days, depending on the size and complexity. Commercial spaces may require additional time."
   }
 ];
 
@@ -82,7 +82,7 @@ const Service = () => {
           {/* Sidebar CTA */}
           <div className="service-sidebar animate-fade-in-up delay-300">
             <div className="service-cta-card">
-              <h3>Need Soundproofing?</h3>
+              <h3>Need Silent Guard Acoustics?</h3>
               <p>Contact us today for a free consultation and project estimate.</p>
               
               <div className="service-contact-info">
@@ -100,7 +100,7 @@ const Service = () => {
       <div className="container pb-5 animate-fade-in-up delay-400">
         <div className="service-faq-section">
           <h2>Frequently asked questions</h2>
-          <p className="faq-subtitle">Find answers to the most common questions about our soundproofing services. From installation timelines to compatibility with your current space, we cover everything you need to know about creating a quieter environment.</p>
+          <p className="faq-subtitle">Find answers to the most common questions about our Silent Guard Acoustics services. From installation timelines to compatibility with your current space, we cover everything you need to know about creating a quieter environment.</p>
           
           <div className="faq-list">
             {faqs.map((faq, index) => (

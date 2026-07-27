@@ -4,12 +4,12 @@ export const categories = [
   {
     "id": "walls",
     "name": "Walls",
-    "seoText": "<p>Creating truly private rooms is a simple process when you have the right products available. Using flexible membranes, isolation techniques and damping products in your walls, individually or in combination, makes even the most challenging projects possible.Recent advances in soundproofing technology have improved tried-and-true sound dampening techniques and introduced new techniques as well. A wide variety of solutions are available for existing as well as new construction. We stock these leading soundproofing products - call us for expert advice and friendly assistance with your project.</p>",
+    "seoText": "<p>Creating truly private rooms is a simple process when you have the right products available. Using flexible membranes, isolation techniques and damping products in your walls, individually or in combination, makes even the most challenging projects possible.Recent advances in Silent Guard Acoustics technology have improved tried-and-true sound dampening techniques and introduced new techniques as well. A wide variety of solutions are available for existing as well as new construction. We stock these leading Silent Guard Acoustics products - call us for expert advice and friendly assistance with your project.</p>",
     "subcategories": [
       {
         "id": "green-glue",
         "name": "Green Glue",
-        "description": "Green Glue is an easy solution for soundproofing walls, floors, and ceilings.  Apply it between two sheet of drywall to effectively reduce airborne noise.",
+        "description": "Green Glue is an easy solution for Silent Guard Acoustics walls, floors, and ceilings.  Apply it between two sheet of drywall to effectively reduce airborne noise.",
         "image": "/images/categories/IMG_0014.jpg",
         "url": "greenglue"
       },
@@ -30,7 +30,7 @@ export const categories = [
       {
         "id": "acoustical-sealant",
         "name": "Acoustical Sealant",
-        "description": "Acoustical Sealant is a water-based sealant that reduces sound transmission in walls, helping to maintain the designed STC (Sound Transmission Class) value. It stays flexible and adheres well to wood, metal, concrete, and gypsum board for lasting soundproofing.",
+        "description": "Acoustical Sealant is a water-based sealant that reduces sound transmission in walls, helping to maintain the designed STC (Sound Transmission Class) value. It stays flexible and adheres well to wood, metal, concrete, and gypsum board for lasting Silent Guard Acoustics.",
         "image": "/images/categories/GREEN GLUE NOISEPROOFING SEALANT.jpg",
         "url": "Acoustical-Sealant_c_68.html"
       },
@@ -44,7 +44,7 @@ export const categories = [
       {
         "id": "wall-accessories",
         "name": "Wall Accessories",
-        "description": "The key to sound isolation is in the details. Even the smallest gaps in walls, ceilings, or floors can let noise through, so sealing and isolating every seam and penetration ensures maximum soundproofing performance.",
+        "description": "The key to sound isolation is in the details. Even the smallest gaps in walls, ceilings, or floors can let noise through, so sealing and isolating every seam and penetration ensures maximum Silent Guard Acoustics performance.",
         "image": "/images/categories/wall-accessories.jpg",
         "url": "Wall-Accessories_c_75.html"
       }
@@ -53,7 +53,7 @@ export const categories = [
   {
     "id": "floors",
     "name": "Floors",
-    "seoText": "Blocking noise from floor-to-floor is the most common yet challenging request in soundproofing. As trends continue towards higher population densities in urban settings, privacy in the home has become of greater and greater importance. Multi-level housing brings with it special \"neighbor noise\" issues that need special solutions. We have the right products for your project -- ranging from thin underlays appropriate for floating wood floors on concrete to thick underlays for nailed down floors, as well as underlays for carpet or tile/stone. Our suggested uses below should be used as a general guide -- please contact us for assistance with your particular situation.",
+    "seoText": "Blocking noise from floor-to-floor is the most common yet challenging request in Silent Guard Acoustics. As trends continue towards higher population densities in urban settings, privacy in the home has become of greater and greater importance. Multi-level housing brings with it special \"neighbor noise\" issues that need special solutions. We have the right products for your project -- ranging from thin underlays appropriate for floating wood floors on concrete to thick underlays for nailed down floors, as well as underlays for carpet or tile/stone. Our suggested uses below should be used as a general guide -- please contact us for assistance with your particular situation.",
     "subcategories": [
       {
         "id": "wood-floors",
@@ -81,7 +81,7 @@ export const categories = [
   {
     "id": "ceilings",
     "name": "Ceilings",
-    "seoText": "<p>Total Ceiling Solutions  Ceiling treatments for sound include both soundproofing and sound absorption. Though ceilings are typically harder to work with than floors and walls, the rewards can be significant. Silent Guard Acoustics sells products that are effective in absorbing sound reflections and preventing sound from traveling through ceilings, giving you a quieter, more relaxing environment.</p><p>Total Ceiling Solutions</p><p>Sonex Ceiling Panels Silent Guard Acoustics is proud to feature Sonex Contour acoustical panels. Acoustical panels absorb sound to prevent reflections, creating a quieter more relaxing room. Contour panels can be placed in a ceiling grid or glued onto the ceiling, for ultimate convenience.</p><p>Ceiling Soundproofing Answers Silent Guard Acoustics sells a system of solutions for soundproofing ceilings. Soundproofing can drastically reduce impact sounds like footsteps from the floor above, as well as airborne noise such as voices or media audio. From barriers, to clips and channels,  to visco-elastic compounds, Silent Guard Acoustics has you covered.</p><p>Ceiling Soundproofing Answers</p>",
+    "seoText": "<p>Total Ceiling Solutions  Ceiling treatments for sound include both Silent Guard Acoustics and sound absorption. Though ceilings are typically harder to work with than floors and walls, the rewards can be significant. Silent Guard Acoustics sells products that are effective in absorbing sound reflections and preventing sound from traveling through ceilings, giving you a quieter, more relaxing environment.</p><p>Total Ceiling Solutions</p><p>Sonex Ceiling Panels Silent Guard Acoustics is proud to feature Sonex Contour acoustical panels. Acoustical panels absorb sound to prevent reflections, creating a quieter more relaxing room. Contour panels can be placed in a ceiling grid or glued onto the ceiling, for ultimate convenience.</p><p>Ceiling Silent Guard Acoustics Answers Silent Guard Acoustics sells a system of solutions for Silent Guard Acoustics ceilings. Silent Guard Acoustics can drastically reduce impact sounds like footsteps from the floor above, as well as airborne noise such as voices or media audio. From barriers, to clips and channels,  to visco-elastic compounds, Silent Guard Acoustics has you covered.</p><p>Ceiling Silent Guard Acoustics Answers</p>",
     "subcategories": [
       {
         "id": "green-glue-ceilings",
@@ -114,7 +114,7 @@ export const categories = [
   {
     "id": "instructionals",
     "name": "Instructionals",
-    "seoText": "<!--\n.learnTop {\n\tfloat: left;\n\twidth: 477px;\n\theight: 182px;\n\t\n}\n\n.learnText {\n\tfloat: left;\n\twidth: 328px;\n\theight: 175px;\n\ttext-align: left;\n}\n.learnRight {\n\twidth: 149px;\n\theight: 106px;\n\tfloat: left;\n}\n\n.field-items {\n\twidth: 757px;\n\tbackground-color: #FFF;\n\tpadding-left: 8px;\n\tpadding-right: 8px;\n\tpadding-top: 10px;\n}\n.field-items a {\n\tfont-weight: bold;\n\ttext-decoration: none;\n\tcolor: #528400;\n\tfont-size: 14px;\n}\n.border {\n\tborder: solid 1px #cdcdcd;\t\n}\n-->\n\n\n\n\nWe encourage you to learn as much as possible about our products, solutions and industry. By being better educated, you may enhance your ability to discover ideas that help you address your particular sound and noise needs. If you don't find the answers or information you need, please contact one of our team members.\n\n\n\n\n\n\n\n\n\n\nSoundproofing Step By Step We encourage you to review these articles to gain a better understanding of how our products can help.\nDatasheets To insure complete satisfaction with our products we offer the following datasheets, installation guides & testing reports.\nFloor Soundproofing Floors requires a careful evaluation of construction methods & conditions. Learn what products you need to use.\nWall Soundproofing Improve your walls with reliable, proven products you can obtain very good results, and stay within your budget.\nIndoor Air Quality Breathe easy because we offer low VOC products.\nLEED Certified Products Many of our products meet LEED Certification standards to help ensure a greener today and tomorrow.",
+    "seoText": "<!--\n.learnTop {\n\tfloat: left;\n\twidth: 477px;\n\theight: 182px;\n\t\n}\n\n.learnText {\n\tfloat: left;\n\twidth: 328px;\n\theight: 175px;\n\ttext-align: left;\n}\n.learnRight {\n\twidth: 149px;\n\theight: 106px;\n\tfloat: left;\n}\n\n.field-items {\n\twidth: 757px;\n\tbackground-color: #FFF;\n\tpadding-left: 8px;\n\tpadding-right: 8px;\n\tpadding-top: 10px;\n}\n.field-items a {\n\tfont-weight: bold;\n\ttext-decoration: none;\n\tcolor: #528400;\n\tfont-size: 14px;\n}\n.border {\n\tborder: solid 1px #cdcdcd;\t\n}\n-->\n\n\n\n\nWe encourage you to learn as much as possible about our products, solutions and industry. By being better educated, you may enhance your ability to discover ideas that help you address your particular sound and noise needs. If you don't find the answers or information you need, please contact one of our team members.\n\n\n\n\n\n\n\n\n\n\nSilent Guard Acoustics Step By Step We encourage you to review these articles to gain a better understanding of how our products can help.\nDatasheets To insure complete satisfaction with our products we offer the following datasheets, installation guides & testing reports.\nFloor Silent Guard Acoustics Floors requires a careful evaluation of construction methods & conditions. Learn what products you need to use.\nWall Silent Guard Acoustics Improve your walls with reliable, proven products you can obtain very good results, and stay within your budget.\nIndoor Air Quality Breathe easy because we offer low VOC products.\nLEED Certified Products Many of our products meet LEED Certification standards to help ensure a greener today and tomorrow.",
     "subcategories": [
       {
         "id": "soundproofing-step-by-step",

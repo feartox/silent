@@ -22,8 +22,8 @@ const Category = () => {
   return (
     <div className="category-page">
       <SEO 
-        title={`${category.name} Soundproofing`} 
-        description={`Explore our high-quality soundproofing products for ${category.name.toLowerCase()}. Find the perfect acoustic solution for your needs.`} 
+        title={`${category.name} Silent Guard Acoustics`} 
+        description={`Explore our high-quality Silent Guard Acoustics products for ${category.name.toLowerCase()}. Find the perfect acoustic solution for your needs.`} 
       />
 
       <div className="bg-light py-5 mb-5 text-center">

@@ -25,10 +25,10 @@ const About = () => {
           <div className="about-text">
             <h2>Our Story</h2>
             <p>
-              At Silent Guard Acoustics, we specialize in resolving noise challenges with the most advanced and effective soundproofing and acoustic treatment solutions available. We proudly help homeowners, builders, and businesses transform their spaces into quieter, more comfortable environments.
+              At Silent Guard Acoustics, we specialize in resolving noise challenges with the most advanced and effective Silent Guard Acoustics and acoustic treatment solutions available. We proudly help homeowners, builders, and businesses transform their spaces into quieter, more comfortable environments.
             </p>
             <p>
-              Whether you are dealing with noisy neighbors, looking to build a professional recording studio, or simply wanting to create a peaceful sanctuary in your home, our team has the expertise and the right products to make it happen. We carry a full line of soundproofing and noise reduction materials from leading manufacturers, ensuring we can supply you for whatever project you are working on.
+              Whether you are dealing with noisy neighbors, looking to build a professional recording studio, or simply wanting to create a peaceful sanctuary in your home, our team has the expertise and the right products to make it happen. We carry a full line of Silent Guard Acoustics and noise reduction materials from leading manufacturers, ensuring we can supply you for whatever project you are working on.
             </p>
             
             <h2 className="mt-4">Why Choose Us?</h2>
@@ -37,7 +37,7 @@ const About = () => {
                 <strong>Expert Consultations:</strong> Our experienced sound specialists will visit your location, assess your acoustic needs, and provide a tailored project estimate based on your specific concerns.
               </li>
               <li>
-                <strong>Premium Materials:</strong> We source only the best, industry-standard soundproofing materials that are proven to deliver measurable results.
+                <strong>Premium Materials:</strong> We source only the best, industry-standard Silent Guard Acoustics materials that are proven to deliver measurable results.
               </li>
               <li>
                 <strong>Local Support:</strong> As a local Los Angeles business, our warehouse is open for pickups, and our customer service team is readily available to answer your questions.
@@ -46,7 +46,7 @@ const About = () => {
           </div>
 
           <div className="about-image">
-            <img src="/images/hero-acoustic.jpg" alt="Soundproofing Installation" />
+            <img src="/images/hero-acoustic.jpg" alt="Silent Guard Acoustics Installation" />
           </div>
         </div>
       </section>

@@ -34,8 +34,8 @@ const Subcategory = () => {
   return (
     <div className="category-page py-5">
       <SEO 
-        title={`${subcategory.name} Soundproofing`} 
-        description={`Explore our high-quality ${subcategory.name.toLowerCase()} soundproofing products.`} 
+        title={`${subcategory.name} Silent Guard Acoustics`} 
+        description={`Explore our high-quality ${subcategory.name.toLowerCase()} Silent Guard Acoustics products.`} 
       />
       <div className="container">
         <div className="breadcrumbs mb-2">

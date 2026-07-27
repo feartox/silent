@@ -7,24 +7,24 @@ import './Home.css';
 
 const faqs = [
   {
-    question: "How do I start the soundproofing process?",
+    question: "How do I start the Silent Guard Acoustics process?",
     answer: "After an initial consultation, we assess your space and noise concerns. Based on that, we offer a tailored plan that fits your needs, timeline, and budget."
   },
   {
-    question: "How much does soundproofing cost?",
+    question: "How much does Silent Guard Acoustics cost?",
     answer: "Pricing depends on the scope of work, the materials used, and the surfaces to be treated (walls, windows, floors, etc.). We provide a detailed quote after evaluating your space."
   },
   {
     question: "Can you soundproof existing structures?",
-    answer: "Yes! We specialize in retrofitting soundproofing solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
+    answer: "Yes! We specialize in retrofitting Silent Guard Acoustics solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
   },
   {
     question: "How long does installation take?",
-    answer: "Most residential soundproofing projects are completed within 1–3 days, depending on the size and complexity. Commercial spaces may require additional time."
+    answer: "Most residential Silent Guard Acoustics projects are completed within 1–3 days, depending on the size and complexity. Commercial spaces may require additional time."
   },
   {
     question: "What types of spaces do you work on?",
-    answer: "We provide soundproofing solutions for homes, offices, studios, meeting rooms, and even outdoor barriers. Whether you need quiet to sleep, work, or record - we’ve got you covered."
+    answer: "We provide Silent Guard Acoustics solutions for homes, offices, studios, meeting rooms, and even outdoor barriers. Whether you need quiet to sleep, work, or record - we’ve got you covered."
   }
 ];
 
@@ -122,7 +122,7 @@ const Home = () => {
           <div className="hero-gradient"></div>
           <div className="hero-content">
             <h1>Silence Is Not a Luxury<br />It's a Necessity</h1>
-            <p>Noise steals comfort - reclaim your quiet. Explore our smart and affordable soundproofing solutions.</p>
+            <p>Noise steals comfort - reclaim your quiet. Explore our smart and affordable Silent Guard Acoustics solutions.</p>
           </div>
         </div>
       </section>
@@ -130,8 +130,8 @@ const Home = () => {
       {/* Welcome / SEO Section */}
       <section className="container py-5 animate-fade-in-up delay-200">
         <div className="home-seo-text">
-          <h2>Welcome to your source for Soundproofing</h2>
-          <p>Enhance your living or working environment with our tailored soundproofing services - designed to block unwanted noise and boost comfort. From walls to windows, ceilings to floors, we deliver seamless solutions that match your space and acoustic needs.</p>
+          <h2>Welcome to your source for Silent Guard Acoustics</h2>
+          <p>Enhance your living or working environment with our tailored Silent Guard Acoustics services - designed to block unwanted noise and boost comfort. From walls to windows, ceilings to floors, we deliver seamless solutions that match your space and acoustic needs.</p>
         </div>
       </section>
 
@@ -221,7 +221,7 @@ const Home = () => {
         <div className="video-showcase-overlay"></div>
         <div className="container video-showcase-content">
           <div className="video-showcase-left">
-            <h2>Watch Our Soundproofing<br/>Projects in Action</h2>
+            <h2>Watch Our Silent Guard Acoustics<br/>Projects in Action</h2>
             <div className="video-showcase-divider"></div>
             <div className="video-showcase-desc">
               <div className="video-showcase-icon">
@@ -230,7 +230,7 @@ const Home = () => {
                   <path d="M9 12l2 2 4-4"/>
                 </svg>
               </div>
-              <p>From homes to studios, see how we bring silence to life. With years of experience, we specialize in delivering high-performance soundproofing solutions tailored to your space - whether it's doors, walls, windows, or entire rooms. Our work blends technical precision with acoustic comfort to meet your unique needs.</p>
+              <p>From homes to studios, see how we bring silence to life. With years of experience, we specialize in delivering high-performance Silent Guard Acoustics solutions tailored to your space - whether it's doors, walls, windows, or entire rooms. Our work blends technical precision with acoustic comfort to meet your unique needs.</p>
             </div>
             <Link to="/contact" className="btn video-contact-btn">
               Contact Now <span className="arrow">→</span>
@@ -249,7 +249,7 @@ const Home = () => {
                 </div>
               ) : (
                 <video 
-                  src="/video/soundproofing-projects.mp4" 
+                  src="/video/Silent Guard Acoustics-projects.mp4" 
                   autoPlay 
                   controls 
                   playsInline
@@ -268,7 +268,7 @@ const Home = () => {
           <div className="home-faq-left">
             <div className="faq-bg-text">FAQs</div>
             <h2>Our frequently <span>asked questions</span></h2>
-            <p className="faq-intro-text">Find answers to the most common questions about our soundproofing services. From installation timelines to compatibility with your current space, we cover everything you need to know about creating a quieter environment.</p>
+            <p className="faq-intro-text">Find answers to the most common questions about our Silent Guard Acoustics services. From installation timelines to compatibility with your current space, we cover everything you need to know about creating a quieter environment.</p>
             
             <div className="faq-contact-card">
               <div className="faq-contact-header">
@@ -303,7 +303,7 @@ const Home = () => {
         <h2>Why Choose Silent Guard Acoustics LLC for Sound Insulation?</h2>
         <p>At Silent Guard Acoustics, we specialize in high-performance <strong>sound insulation</strong> solutions tailored for a wide range of environments. Whether you're looking to block noise, improve acoustics, or create a more private and productive atmosphere, our team delivers expert results with precision and professionalism.</p>
         
-        <p>Our soundproofing systems are engineered for maximum noise reduction and acoustic performance. We use premium-grade materials and modern installation techniques to ensure optimal results across all project types.</p>
+        <p>Our Silent Guard Acoustics systems are engineered for maximum noise reduction and acoustic performance. We use premium-grade materials and modern installation techniques to ensure optimal results across all project types.</p>
         
         <h3>We provide professional sound insulation services for:</h3>
         <ul className="seo-list">
