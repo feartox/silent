@@ -123,18 +123,6 @@ const Home = () => {
         </div>
       </section>
       
-      {/* CTA Section */}
-      <section className="cta-section animate-fade-in-up">
-        <div className="container text-center">
-          <h2>Ready to Soundproof Your Space?</h2>
-          <p>Get expert advice and a free consultation from our specialists.</p>
-          <div className="cta-buttons">
-            <Link to="/contact" className="btn btn-primary">Get a Free Consultation</Link>
-            <a href="tel:+15514559345" className="btn btn-outline btn-outline-light">Call: +1 (551) 455 9345</a>
-          </div>
-        </div>
-      </section>
-
       {/* Video Showcase Section */}
       <section className="video-showcase-section animate-fade-in-up delay-100">
         <div className="video-showcase-overlay"></div>
@@ -229,6 +217,18 @@ const Home = () => {
         <p>From small-scale projects to large commercial developments, Silent Guard Acoustics is committed to delivering reliable, effective, and aesthetically pleasing <strong>sound insulation</strong> solutions that transform your environment.</p>
         
         <p><strong><Link to="/contact">Contact us today</Link></strong> to learn how we can help you create a quieter, more comfortable space.</p>
+      </section>
+
+      {/* CTA Section */}
+      <section className="cta-section animate-fade-in-up">
+        <div className="container text-center">
+          <h2>Ready to Soundproof Your Space?</h2>
+          <p>Get expert advice and a free consultation from our specialists.</p>
+          <div className="cta-buttons">
+            <Link to="/contact" className="btn btn-primary">Get a Free Consultation</Link>
+            <a href="tel:+15514559345" className="btn btn-outline btn-outline-light">Call: +1 (551) 455 9345</a>
+          </div>
+        </div>
       </section>
     </div>
   );
