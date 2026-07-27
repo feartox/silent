@@ -18,9 +18,13 @@ const Home = () => {
       {/* Full Width Hero Section */}
       <section className="animate-fade-in-up">
         <div className="hero hero-slide hero-video-wrapper">
-          <video className="hero-video-bg" autoPlay muted loop playsInline>
-            <source src="/video/spla-new-lead4.webm" type="video/webm" />
-          </video>
+          <iframe 
+            className="hero-video-bg"
+            src="https://www.youtube.com/embed/jU0gXUWMVGo?autoplay=1&mute=1&controls=0&loop=1&playlist=jU0gXUWMVGo&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1" 
+            frameBorder="0" 
+            allow="autoplay; encrypted-media" 
+            allowFullScreen
+          ></iframe>
           <div className="hero-gradient"></div>
           <div className="hero-content">
             <h1>Silence Is Not a Luxury — It's a Necessity</h1>

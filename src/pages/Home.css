@@ -23,11 +23,12 @@
   top: 50%;
   left: 50%;
   width: 100vw;
-  height: 100%;
+  height: 56.25vw; /* 16:9 aspect ratio */
   min-height: 100%;
-  object-fit: cover;
+  min-width: 177.77vh; /* 16:9 aspect ratio */
   transform: translate(-50%, -50%);
   z-index: 0;
+  pointer-events: none; /* Prevent clicks on the YouTube iframe */
 }
 
 .hero-gradient {
