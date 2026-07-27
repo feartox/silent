@@ -135,6 +135,40 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Video Showcase Section */}
+      <section className="video-showcase-section animate-fade-in-up delay-100">
+        <div className="video-showcase-overlay"></div>
+        <div className="container video-showcase-content">
+          <div className="video-showcase-left">
+            <h2>Watch Our Soundproofing<br/>Projects in Action</h2>
+            <div className="video-showcase-divider"></div>
+            <div className="video-showcase-desc">
+              <div className="video-showcase-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="M9 12l2 2 4-4"/>
+                </svg>
+              </div>
+              <p>From homes to studios, see how we bring silence to life. With years of experience, we specialize in delivering high-performance soundproofing solutions tailored to your space — whether it's doors, walls, windows, or entire rooms. Our work blends technical precision with acoustic comfort to meet your unique needs.</p>
+            </div>
+            <Link to="/contact" className="btn video-contact-btn">
+              Contact Now <span className="arrow">→</span>
+            </Link>
+          </div>
+          <div className="video-showcase-right">
+            <div className="video-embed-wrapper">
+              <iframe 
+                src="https://www.youtube.com/embed/9fKA1_FsLWM?rel=0" 
+                title="Soundproofing Projects" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Home FAQ Section */}
       <section className="container py-5 animate-fade-in-up delay-200">
         <div className="home-faq-layout">
