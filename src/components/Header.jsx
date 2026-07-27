@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Search, Menu, X } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import { categories } from '../data/catalog';
 import { services } from '../data/services';
 import './Header.css';
@@ -29,9 +29,6 @@ const Header = () => {
       <div className="top-bar">
         <div className="container top-bar-content">
           <div className="contact-info">
-            <span className="contact-item">
-              <span>CALL: 1-888-927-7495</span>
-            </span>
             <a href="mailto:info@silentguardacoustics.com" className="contact-item">
               <span>SEND A MESSAGE</span>
             </a>
@@ -98,9 +95,10 @@ const Header = () => {
         </div>
         
         <div className="header-actions">
-          <button className="icon-btn" aria-label="Search">
-            <Search size={22} />
-          </button>
+          <a href="tel:+18889277495" className="header-phone-btn">
+            <Phone size={18} />
+            <span>1-888-927-7495</span>
+          </a>
         </div>
       </div>
     </header>

@@ -248,6 +248,28 @@
   transform: translateY(-2px);
 }
 
+.header-phone-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--brand-green);
+  color: white;
+  padding: 0.6rem 1.25rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all var(--transition-speed);
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+  text-decoration: none;
+}
+
+.header-phone-btn:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+  color: white;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3);
+}
+
 .mobile-menu-toggle {
   display: none;
 }
@@ -273,6 +295,15 @@
   
   .header-actions {
     order: 1;
+  }
+  
+  .header-phone-btn span {
+    display: none;
+  }
+  
+  .header-phone-btn {
+    padding: 0.5rem;
+    border-radius: 50%;
   }
   
   .logo.center-logo {
