@@ -5,6 +5,23 @@ const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState('en');
 
+  // Read Google Translate cookie on mount to set the correct flag
+  useEffect(() => {
+    const getCookie = (name) => {
+      const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      if (match) return match[2];
+      return null;
+    };
+    const gtCookie = getCookie('googtrans');
+    if (gtCookie) {
+      // googtrans cookie format is typically '/en/tr' or '/auto/tr'
+      const parts = gtCookie.split('/');
+      if (parts.length >= 3) {
+        setCurrentLang(parts[2]);
+      }
+    }
+  }, []);
+
   const languages = [
     { code: 'en', name: 'English', short: 'EN', flag: 'https://flagcdn.com/w40/us.png' },
     { code: 'es', name: 'Spanish', short: 'ES', flag: 'https://flagcdn.com/w40/es.png' },
@@ -30,12 +47,15 @@ const LanguageSwitcher = () => {
     setCurrentLang(langCode);
     setIsOpen(false);
     
-    // Trigger Google Translate hidden select
-    const select = document.querySelector('.goog-te-combo');
-    if (select) {
-      select.value = langCode;
-      select.dispatchEvent(new Event('change'));
-    }
+    // In React SPAs, DOM conflicts often cause Google Translate to hang (spinning animation).
+    // The most robust solution is to set the translation cookie manually and reload the page.
+    document.cookie = `googtrans=/en/${langCode}; path=/`;
+    document.cookie = `googtrans=/en/${langCode}; path=/; domain=${window.location.hostname}`;
+    
+    // Slight delay to ensure cookie is written before reload
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
   };
 
   const current = languages.find(l => l.code === currentLang);

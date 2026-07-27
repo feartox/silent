@@ -76,15 +76,21 @@
 body {
   top: 0 !important;
 }
-.skiptranslate {
+.skiptranslate,
+.goog-te-banner-frame,
+.goog-te-spinner-pos,
+.goog-te-menu-value,
+#goog-gt-tt,
+.VIpgJd-Zvi9od-ORHb-OEVmcd,
+.goog-tooltip,
+.goog-tooltip:hover {
   display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
 }
-.goog-te-banner-frame {
-  display: none !important;
-}
-.goog-te-spinner-pos {
-  display: none !important;
-}
-.goog-te-menu-value {
-  display: none !important;
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
