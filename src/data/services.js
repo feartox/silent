@@ -100,6 +100,10 @@ export const services = [
       {
         "type": "paragraph",
         "content": "93 Commerce St, Garfield, NJ 07026"
+      },
+      {
+        "type": "image",
+        "src": "/images/services/Soundproofing-Windows.jpg"
       }
     ]
   },
@@ -143,6 +147,10 @@ export const services = [
       {
         "type": "paragraph",
         "content": "93 Commerce St, Garfield, NJ 07026"
+      },
+      {
+        "type": "image",
+        "src": "/images/services/Sound-Barrier-Fence3.jpg"
       }
     ]
   },
