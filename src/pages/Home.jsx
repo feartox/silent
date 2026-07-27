@@ -111,6 +111,32 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Bottom SEO Section */}
+      <section className="container py-5 bottom-seo-section animate-fade-in-up">
+        <h2>Why Choose Silent Guard Acoustics LLC for Sound Insulation?</h2>
+        <p>At Silent Guard Acoustics, we specialize in high-performance <strong>sound insulation</strong> solutions tailored for a wide range of environments. Whether you're looking to block noise, improve acoustics, or create a more private and productive atmosphere, our team delivers expert results with precision and professionalism.</p>
+        
+        <p>Our soundproofing systems are engineered for maximum noise reduction and acoustic performance. We use premium-grade materials and modern installation techniques to ensure optimal results across all project types.</p>
+        
+        <h3>We provide professional sound insulation services for:</h3>
+        <ul className="seo-list">
+          <li><strong>Residential Homes</strong> – Reduce street noise, neighbor disturbance, and room-to-room sound transfer.</li>
+          <li><strong>Corporate Offices</strong> – Improve focus and confidentiality in open-plan spaces or meeting rooms.</li>
+          <li><strong>Recording Studios</strong> – Achieve industry-level acoustic clarity with wall, ceiling, and floor treatments.</li>
+          <li><strong>Hotels & Hospitality</strong> – Enhance guest comfort and satisfaction by minimizing noise from adjacent rooms or hallways.</li>
+          <li><strong>Hospitals & Clinics</strong> – Promote healing and concentration by reducing ambient and structural noise.</li>
+          <li><strong>Educational Institutions</strong> – Improve speech intelligibility and reduce distractions in classrooms and lecture halls.</li>
+          <li><strong>Restaurants & Cafés</strong> – Create a pleasant dining atmosphere by managing reverb and chatter.</li>
+          <li><strong>Industrial Facilities</strong> – Ensure compliance with noise regulations and improve worker safety.</li>
+          <li><strong>Retail Stores & Showrooms</strong> – Maintain a calm and inviting environment for customers.</li>
+          <li><strong>Home Theaters & Media Rooms</strong> – Enjoy immersive experiences without disturbing others.</li>
+        </ul>
+
+        <p>From small-scale projects to large commercial developments, Silent Guard Acoustics is committed to delivering reliable, effective, and aesthetically pleasing <strong>sound insulation</strong> solutions that transform your environment.</p>
+        
+        <p><strong><Link to="/contact">Contact us today</Link></strong> to learn how we can help you create a quieter, more comfortable space.</p>
+      </section>
     </div>
   );
 };

@@ -400,6 +400,64 @@
   color: white;
 }
 
+/* ===== BOTTOM SEO SECTION ===== */
+.bottom-seo-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  padding-bottom: 4rem;
+  padding-top: 4rem !important;
+}
+
+.bottom-seo-section h2 {
+  color: var(--primary-color);
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.bottom-seo-section h3 {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.bottom-seo-section p {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.bottom-seo-section strong {
+  color: #111;
+  font-weight: 600;
+}
+
+.seo-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 2.5rem;
+}
+
+.seo-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.seo-list li::before {
+  content: '•';
+  color: var(--brand-green);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .hero-slide {
