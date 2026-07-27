@@ -35,6 +35,21 @@ const Home = () => {
   const videoWrapperRef = useRef(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  const heroVideos = [
+    "/video/motion-accoustic-wall-panels-vj-loop-2026-07-10-01-27-29-utc.mp4",
+    "/video/acoustic-foam-soundproof-panel-audio-insulation-st-2026-02-10-17-27-07-utc.mp4",
+    "/video/modern-interior-design-with-hanging-ceiling-panels-2026-07-16-15-29-27-utc.mp4",
+    "/video/modern-soundproof-acoustic-pod-in-a-contemporary-o-2026-01-22-06-05-17-utc.mp4",
+    "/video/sound-recording-room-fully-soundproofed-for-record-2025-12-17-14-57-27-utc.mp4"
+  ];
+  const [currentHeroVideoIndex, setCurrentHeroVideoIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCurrentHeroVideoIndex((prevIndex) => (prevIndex + 1) % heroVideos.length);
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, [currentHeroVideoIndex]);
   const carouselProducts = products.slice(0, 10);
 
   useEffect(() => {
@@ -112,10 +127,10 @@ const Home = () => {
         <div className="hero hero-slide hero-video-wrapper">
           <video 
             className="hero-video-bg"
-            src="/video/hero-video.mp4" 
+            src={heroVideos[currentHeroVideoIndex]} 
             autoPlay 
             muted 
-            loop 
+            loop
             playsInline
           ></video>
           <div className="hero-gradient"></div>

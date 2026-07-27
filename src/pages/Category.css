@@ -5,6 +5,12 @@
   gap: 1.5rem;
 }
 
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
 .subcategory-card {
   background: var(--surface-solid);
   border: 1px solid var(--border-color);
