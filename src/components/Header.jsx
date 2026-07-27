@@ -176,7 +176,7 @@ const Header = () => {
         </div>
 
         <div className="mobile-modal-footer">
-          <a href="tel:+18889277495" className="btn btn-primary btn-block mb-3" style={{display: 'flex', justifyContent: 'center', gap: '8px', alignItems: 'center'}}>
+          <a href="tel:+18889277495" className="btn btn-primary btn-block" style={{display: 'flex', justifyContent: 'center', gap: '8px', alignItems: 'center'}}>
             <Phone size={20} /> Call Us: 1-888-927-7495
           </a>
           <Link to="/contact" className="btn btn-outline btn-block" style={{display: 'flex', justifyContent: 'center', gap: '8px', alignItems: 'center'}}>
