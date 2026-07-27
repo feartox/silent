@@ -249,7 +249,7 @@ const Home = () => {
                 </div>
               ) : (
                 <video 
-                  src="/video/Silent Guard Acoustics-projects.mp4" 
+                  src="/video/silentguardacoustics-projects.mp4" 
                   autoPlay 
                   controls 
                   playsInline

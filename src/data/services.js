@@ -180,11 +180,11 @@ export const services = [
   {
     "id": "silentguardacoustics-phone-meeting-booth",
     "title": "Silent Guard Acoustics Phone &  Meeting Booths",
-    "featureImage": "/images/services/Silent Guard AcousticsPhoneMeetingBooths2.jpg",
+    "featureImage": "/images/services/SilentGuardAcousticsPhoneMeetingBooths2.jpg",
     "content": [
       {
         "type": "paragraph",
-        "content": "Silent Guard Acoustics Silent Guard Acoustics Booths are engineered environments designed to deliver maximum acoustic privacy in open-plan offices, co-working spaces, call centers, and public areas. Whether for confidential phone conversations or focused team discussions, our high-performance acoustic pods create a quiet, distraction-free space within even the busiest environments."
+        "content": "Silent Guard Acoustics Booths are engineered environments designed to deliver maximum acoustic privacy in open-plan offices, co-working spaces, call centers, and public areas. Whether for confidential phone conversations or focused team discussions, our high-performance acoustic pods create a quiet, distraction-free space within even the busiest environments."
       },
       {
         "type": "paragraph",
