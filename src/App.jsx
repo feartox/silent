@@ -9,6 +9,7 @@ import Service from './pages/Service';
 import Contact from './pages/Contact';
 
 import About from './pages/About';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <LanguageSwitcher />
       </div>
     </Router>
   );
