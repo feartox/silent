@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { services } from '../data/services';
+import { products } from '../data/catalog';
 import './Home.css';
 
 const Home = () => {
@@ -10,32 +11,7 @@ const Home = () => {
     { id: 'accessories', title: 'Accessories', image: '/images/home-cat-access.webp', link: '/category/accessories' },
   ];
 
-  const topSellers = [
-    {
-      id: 1,
-      name: 'Green Glue: Case / 12 tubes',
-      image: '/images/products/img_0020_thumbnail.jpg',
-      price: '$279.99'
-    },
-    {
-      id: 2,
-      name: 'Furring Channel- 7/8", 25g, 12FT-SINGLE',
-      image: '/images/products/furring_channel_thumbnail.jpg',
-      price: '$14.00'
-    },
-    {
-      id: 3,
-      name: 'Serenity Ultimate Underlay™: 6mm',
-      image: '/images/products/privacy_ultimate_underlay_thumbnail.jpg',
-      price: '$199.99'
-    },
-    {
-      id: 4,
-      name: 'Vinyl Seam Tape 2pk',
-      image: '/images/products/black_vinyl_seam_tape_1_thumbnail.jpg',
-      price: '$30.00'
-    }
-  ];
+
 
   return (
     <div className="home-page">
@@ -74,8 +50,8 @@ const Home = () => {
       {/* Products Section */}
       <section className="container py-5">
         <h2 className="section-title animate-fade-in-up delay-400">Our Products</h2>
-        <div className="products-grid">
-          {topSellers.map((product, index) => (
+        <div className="products-carousel">
+          {products.slice(0, 10).map((product, index) => (
             <div key={product.id} className={`product-card animate-fade-in-up delay-${(index % 4 + 1) * 100}`}>
               <div className="product-image">
                 <Link to={`/product/${product.id}`}>
