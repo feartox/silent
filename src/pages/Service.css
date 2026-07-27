@@ -58,6 +58,22 @@
   border: 1px solid var(--border-color);
 }
 
+.service-main-image {
+  margin-bottom: 2rem;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+}
+
+.service-main-image img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
 .service-heading {
   font-size: 1.75rem;
   color: var(--primary-color);

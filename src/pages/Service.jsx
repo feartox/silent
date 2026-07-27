@@ -32,6 +32,10 @@ const Service = () => {
         <div className="service-layout">
           {/* Main Content */}
           <div className="service-main-content animate-fade-in-up delay-200">
+            <div className="service-main-image">
+              <img src={service.featureImage !== '/images/categories/placeholder.jpg' ? service.featureImage : '/images/hero-acoustic.jpg'} alt={service.title} />
+            </div>
+            
             {service.content.map((block, index) => {
               // Ignore the hardcoded address paragraph to put it in the sidebar instead
               if (block.type === 'paragraph' && block.content.includes('93 Commerce St')) {
