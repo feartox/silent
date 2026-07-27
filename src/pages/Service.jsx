@@ -103,7 +103,7 @@ const Service = () => {
           
           <div className="faq-list">
             {faqs.map((faq, index) => (
-              <details key={index} className="faq-item">
+              <details key={index} className="faq-item" name="faq-accordion">
                 <summary className="faq-question">
                   {faq.question}
                   <span className="faq-icon"></span>
