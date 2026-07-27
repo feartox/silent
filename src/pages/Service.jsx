@@ -10,23 +10,34 @@ const Service = () => {
     return (
       <div className="container py-5 text-center">
         <h2>Service Not Found</h2>
-        <Link to="/" className="btn btn-primary mt-2">Return Home</Link>
+        <Link to="/" className="btn btn-primary mt-3">Return Home</Link>
       </div>
     );
   }
 
   return (
-    <div className="service-page py-5">
-      <div className="container">
-        <h1 className="section-title"><span>{service.title}</span></h1>
-        
-        <div className="service-layout mt-3">
-          <div className="service-feature-image">
-            <img src={service.featureImage} alt={service.title} />
-          </div>
-          
-          <div className="service-content">
+    <div className="service-page">
+      {/* Hero Section */}
+      <div 
+        className="service-hero" 
+        style={{ backgroundImage: `url(${service.featureImage !== '/images/categories/placeholder.jpg' ? service.featureImage : '/images/hero-acoustic.jpg'})` }}
+      >
+        <div className="service-hero-overlay"></div>
+        <div className="container service-hero-content">
+          <h1 className="animate-fade-in-up">{service.title}</h1>
+        </div>
+      </div>
+
+      <div className="container py-5">
+        <div className="service-layout">
+          {/* Main Content */}
+          <div className="service-main-content animate-fade-in-up delay-200">
             {service.content.map((block, index) => {
+              // Ignore the hardcoded address paragraph to put it in the sidebar instead
+              if (block.type === 'paragraph' && block.content.includes('93 Commerce St')) {
+                return null;
+              }
+
               if (block.type === 'heading') {
                 return <h2 key={index} className="service-heading">{block.content}</h2>;
               }
@@ -36,17 +47,28 @@ const Service = () => {
               if (block.type === 'image') {
                 return (
                   <div key={index} className="service-inline-image">
-                    <img src={block.src} alt="Service Detail" />
+                    <img src={block.src} alt={`${service.title} detail`} />
                   </div>
                 );
               }
               return null;
             })}
           </div>
-        </div>
-        
-        <div className="service-actions mt-3 text-center">
-           <Link to="/contact" className="btn btn-primary">Request this Service</Link>
+
+          {/* Sidebar CTA */}
+          <div className="service-sidebar animate-fade-in-up delay-300">
+            <div className="service-cta-card">
+              <h3>Need Soundproofing?</h3>
+              <p>Contact us today for a free consultation and project estimate.</p>
+              
+              <div className="service-contact-info">
+                <p><strong>Address:</strong><br />93 Commerce St,<br />Garfield, NJ 07026</p>
+                <p><strong>Phone:</strong><br /><a href="tel:+18889277495">888-927-7495</a></p>
+              </div>
+
+              <Link to="/contact" className="btn btn-primary btn-block mt-3">Request Consultation</Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
