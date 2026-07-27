@@ -3,6 +3,29 @@ import { services } from '../data/services';
 import { products } from '../data/catalog';
 import './Home.css';
 
+const faqs = [
+  {
+    question: "How do I start the soundproofing process?",
+    answer: "After an initial consultation, we assess your space and noise concerns. Based on that, we offer a tailored plan that fits your needs, timeline, and budget."
+  },
+  {
+    question: "How much does soundproofing cost?",
+    answer: "Pricing depends on the scope of work, the materials used, and the surfaces to be treated (walls, windows, floors, etc.). We provide a detailed quote after evaluating your space."
+  },
+  {
+    question: "Can you soundproof existing structures?",
+    answer: "Yes! We specialize in retrofitting soundproofing solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
+  },
+  {
+    question: "How long does installation take?",
+    answer: "Most residential soundproofing projects are completed within 1–3 days, depending on the size and complexity. Commercial spaces may require additional time."
+  },
+  {
+    question: "What types of spaces do you work on?",
+    answer: "We provide soundproofing solutions for homes, offices, studios, meeting rooms, and even outdoor barriers. Whether you need quiet to sleep, work, or record — we’ve got you covered."
+  }
+];
+
 const Home = () => {
   const categories = [
     { id: 'floors', title: 'Floors', image: '/images/home-cat-floor.webp', link: '/category/floors' },
@@ -108,6 +131,42 @@ const Home = () => {
           <div className="cta-buttons">
             <Link to="/contact" className="btn btn-primary">Get a Free Consultation</Link>
             <a href="tel:+15514559345" className="btn btn-outline btn-outline-light">Call: +1 (551) 455 9345</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Home FAQ Section */}
+      <section className="container py-5 animate-fade-in-up delay-200">
+        <div className="home-faq-layout">
+          <div className="home-faq-left">
+            <div className="faq-bg-text">FAQs</div>
+            <h2>Our frequently <span>asked questions</span></h2>
+            <p className="faq-intro-text">Find answers to the most common questions about our soundproofing services. From installation timelines to compatibility with your current space, we cover everything you need to know about creating a quieter environment.</p>
+            
+            <div className="faq-contact-card">
+              <div className="faq-contact-header">
+                <div className="faq-question-mark">?</div>
+                <h3>Still Have Questions?</h3>
+              </div>
+              <p>What question or topic would you like assistance with today?</p>
+              <Link to="/contact" className="btn btn-primary btn-block">Get In Touch</Link>
+            </div>
+          </div>
+          
+          <div className="home-faq-right">
+            <div className="faq-list">
+              {faqs.map((faq, index) => (
+                <details key={index} className="faq-item" name="home-faq-accordion">
+                  <summary className="faq-question">
+                    {faq.question}
+                    <span className="faq-icon"></span>
+                  </summary>
+                  <div className="faq-answer">
+                    <p>{faq.answer}</p>
+                  </div>
+                </details>
+              ))}
+            </div>
           </div>
         </div>
       </section>
