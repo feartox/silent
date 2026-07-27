@@ -47,7 +47,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setCurrentHeroVideoIndex((prevIndex) => (prevIndex + 1) % heroVideos.length);
-    }, 4000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, [currentHeroVideoIndex]);
   const carouselProducts = products.slice(0, 10);
