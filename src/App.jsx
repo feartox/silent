@@ -8,12 +8,7 @@ import Product from './pages/Product';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
 
-// Placeholder components for other routes
-const Placeholder = ({ title }) => (
-  <div className="container py-5 text-center" style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    <h2>{title}</h2>
-  </div>
-);
+import About from './pages/About';
 
 function App() {
   return (
@@ -23,7 +18,7 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<Placeholder title="About Us" />} />
+            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/category/:id" element={<Category />} />
             <Route path="/subcategory/:id" element={<Subcategory />} />

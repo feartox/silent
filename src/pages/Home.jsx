@@ -50,11 +50,16 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Welcome / SEO Section */}
+      {/* Welcome / Info Section */}
       <section className="container py-5 animate-fade-in-up delay-200">
-        <div className="home-seo-text">
-          <h2>Welcome to your source for Soundproofing</h2>
-          <p>Enhance your living or working environment with our tailored soundproofing services — designed to block unwanted noise and boost comfort. From walls to windows, ceilings to floors, we deliver seamless solutions that match your space and acoustic needs.</p>
+        <div className="home-info-text text-center" style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <div className="store-hours mb-4" style={{ backgroundColor: 'rgba(254, 119, 7, 0.1)', padding: '1.5rem', borderRadius: '8px' }}>
+            <h4 style={{ color: 'var(--brand-green)', marginBottom: '0.5rem' }}>WAREHOUSE IS OPEN FOR PICK UPS MONDAY - FRIDAY 10AM - 2PM</h4>
+            <h4 style={{ color: 'var(--brand-green)', marginBottom: '0' }}>CUSTOMER SERVICE HOURS (888-927-7495) -- MONDAY - FRIDAY 9AM - 5PM</h4>
+          </div>
+          <h2 style={{ color: 'var(--brand-green)', marginBottom: '1.5rem' }}>on-site soundproofing and acoustic consultations WITH expert support</h2>
+          <p>At Soundproofing Los Angeles, we specialize in resolving noise challenges with the most advanced and effective soundproofing and acoustic treatment solutions available. Proudly helping homeowners, builders, and businesses transform their spaces into quieter, more comfortable environments.</p>
+          <p>Our experienced sound specialists will visit your location, assess your acoustic or soundproofing needs, and provide a tailored project estimate based on your specific concerns and goals. If you're seeking quality soundproofing materials or professional installation services, we invite you to give us a call today!</p>
         </div>
       </section>
 
@@ -71,9 +76,9 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Top Sellers */}
+      {/* Products Section */}
       <section className="container py-5">
-        <h2 className="section-title animate-fade-in-up delay-400">Top Sellers</h2>
+        <h2 className="section-title animate-fade-in-up delay-400">Our Products</h2>
         <div className="products-grid">
           {topSellers.map((product, index) => (
             <div key={product.id} className={`product-card animate-fade-in-up delay-${(index % 4 + 1) * 100}`}>
