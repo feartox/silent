@@ -27,11 +27,7 @@
   max-height: 50px;
 }
 
-.site-header.scrolled .top-bar {
-  max-height: 0;
-  padding: 0;
-  opacity: 0;
-}
+
 
 .top-bar-content {
   display: flex;

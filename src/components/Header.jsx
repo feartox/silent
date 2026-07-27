@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`site-header ${isScrolled ? 'scrolled' : ''}`}>
+    <>
       <div className="top-bar">
         <div className="container top-bar-content">
           <div className="contact-info">
@@ -39,6 +39,7 @@ const Header = () => {
         </div>
       </div>
       
+      <header className={`site-header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="main-header container">
         {/* Mobile Toggle */}
         <button className="mobile-menu-toggle icon-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} aria-label="Toggle Menu">
@@ -184,7 +185,8 @@ const Header = () => {
           </Link>
         </div>
       </div>
-    </header>
+      </header>
+    </>
   );
 };
 
