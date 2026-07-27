@@ -1,9 +1,10 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   
-  # Force HTTPS
-  RewriteCond %{HTTPS} off
-  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # Force HTTPS and WWW
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^silentguardacousticspro\.com [NC]
+  RewriteRule ^(.*)$ https://www.silentguardacousticspro.com/$1 [L,R=301]
 
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
