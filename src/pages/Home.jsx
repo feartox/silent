@@ -29,7 +29,9 @@ const faqs = [
 
 const Home = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const [hasPlayedShowcase, setHasPlayedShowcase] = useState(false);
   const carouselRef = useRef(null);
+  const videoWrapperRef = useRef(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const carouselProducts = products.slice(0, 10);
@@ -69,6 +71,25 @@ const Home = () => {
     }
   };
 
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !hasPlayedShowcase) {
+        setIsVideoPlaying(true);
+        setHasPlayedShowcase(true);
+      }
+    }, { threshold: 0.5 });
+
+    if (videoWrapperRef.current) {
+      observer.observe(videoWrapperRef.current);
+    }
+
+    return () => {
+      if (videoWrapperRef.current) {
+        observer.unobserve(videoWrapperRef.current);
+      }
+    };
+  }, [hasPlayedShowcase]);
+
   const categories = [
     { id: 'floors', title: 'Floors', image: '/images/home-cat-floor.webp', link: '/category/floors' },
     { id: 'walls', title: 'Walls', image: '/images/home-cat-wall.webp', link: '/category/walls' },
@@ -83,13 +104,14 @@ const Home = () => {
       {/* Full Width Hero Section */}
       <section className="animate-fade-in-up">
         <div className="hero hero-slide hero-video-wrapper">
-          <iframe 
+          <video 
             className="hero-video-bg"
-            src="https://www.youtube.com/embed/jU0gXUWMVGo?autoplay=1&mute=1&controls=0&loop=1&playlist=jU0gXUWMVGo&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1" 
-            frameBorder="0" 
-            allow="autoplay; encrypted-media" 
-            allowFullScreen
-          ></iframe>
+            src="/video/spla-new-lead4.webm" 
+            autoPlay 
+            muted 
+            loop 
+            playsInline
+          ></video>
           <div className="hero-gradient"></div>
           <div className="hero-content">
             <h1>Silence Is Not a Luxury — It's a Necessity</h1>
@@ -208,7 +230,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="video-showcase-right">
-            <div className="video-embed-wrapper" onClick={() => setIsVideoPlaying(true)}>
+            <div className="video-embed-wrapper" ref={videoWrapperRef} onClick={() => setIsVideoPlaying(true)}>
               {!isVideoPlaying ? (
                 <div className="video-thumbnail-overlay">
                   <img src="https://i.ytimg.com/vi/9fKA1_FsLWM/maxresdefault.jpg" alt="Video thumbnail" />
