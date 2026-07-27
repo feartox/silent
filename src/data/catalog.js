@@ -170,8 +170,8 @@ export const categories = [
 
 export const products = [
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "green-glue"
@@ -205,8 +205,8 @@ export const products = [
     "subcategoryId": "green-glue"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "green-glue"
@@ -219,8 +219,8 @@ export const products = [
     "subcategoryId": "green-glue"
   },
   {
-    "id": "Green-Glue-Case-of-12-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-98",
-    "name": "Green Glue: Case of 12- FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-of-12-p-98",
+    "name": "Green Glue: Case of 12",
     "image": "/images/products/green_glue_single_tube_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "green-glue"
@@ -233,8 +233,8 @@ export const products = [
     "subcategoryId": "green-glue"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "silentguardacoustics-clips"
@@ -338,8 +338,8 @@ export const products = [
     "subcategoryId": "silentguardacoustics-clips"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "silentguardacoustics-barrier"
@@ -387,8 +387,8 @@ export const products = [
     "subcategoryId": "silentguardacoustics-barrier"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "acoustical-sealant"
@@ -429,8 +429,8 @@ export const products = [
     "subcategoryId": "acoustical-sealant"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "furring-channels"
@@ -471,8 +471,8 @@ export const products = [
     "subcategoryId": "furring-channels"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "wall-accessories"
@@ -520,8 +520,8 @@ export const products = [
     "subcategoryId": "wall-accessories"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "wood-floors"
@@ -583,8 +583,8 @@ export const products = [
     "subcategoryId": "wood-floors"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "carpet-floors"
@@ -625,8 +625,8 @@ export const products = [
     "subcategoryId": "carpet-floors"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "serenity-ultimate-underlay"
@@ -688,8 +688,8 @@ export const products = [
     "subcategoryId": "serenity-ultimate-underlay"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "ceilings",
     "subcategoryId": "green-glue-ceilings"
@@ -723,8 +723,8 @@ export const products = [
     "subcategoryId": "green-glue-ceilings"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "ceilings",
     "subcategoryId": "green-glue-ceilings"
@@ -737,8 +737,8 @@ export const products = [
     "subcategoryId": "green-glue-ceilings"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "ceilings",
     "subcategoryId": "silentguardacoustics-ceilings-clips"
@@ -828,8 +828,8 @@ export const products = [
     "subcategoryId": "silentguardacoustics-ceilings-clips"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
@@ -877,8 +877,8 @@ export const products = [
     "subcategoryId": null
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "accessories",
     "subcategoryId": null
@@ -975,8 +975,8 @@ export const products = [
     "subcategoryId": null
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "silentguardacoustics-step-by-step"
@@ -1010,8 +1010,8 @@ export const products = [
     "subcategoryId": "silentguardacoustics-step-by-step"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "datasheets"
@@ -1045,8 +1045,8 @@ export const products = [
     "subcategoryId": "datasheets"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "floor-silentguardacoustics"
@@ -1080,8 +1080,8 @@ export const products = [
     "subcategoryId": "floor-silentguardacoustics"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "wall-silentguardacoustics"
@@ -1115,8 +1115,8 @@ export const products = [
     "subcategoryId": "wall-silentguardacoustics"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "indoor-air-quality"
@@ -1150,8 +1150,8 @@ export const products = [
     "subcategoryId": "indoor-air-quality"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "leed-certified-products"
@@ -1185,8 +1185,8 @@ export const products = [
     "subcategoryId": "leed-certified-products"
   },
   {
-    "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
-    "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
+    "id": "Green-Glue-Case-12-tubes-p-12",
+    "name": "Green Glue: Case / 12 tubes",
     "image": "/images/products/img_0020_thumbnail.jpg",
     "categoryId": "green-products",
     "subcategoryId": null
