@@ -58,11 +58,11 @@
 }
 
 /* Footer Content */
-.footer-content {
+.site-footer .footer-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 4rem;
-  padding-top: 5rem;
+  padding-top: 52px;
   padding-bottom: 4rem;
 }
 
