@@ -258,19 +258,34 @@
   }
   
   .main-header {
-    grid-template-columns: auto 1fr auto;
-    gap: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0.5rem 1rem;
+    position: relative;
   }
   
   .mobile-menu-toggle {
     display: flex;
-    justify-self: start;
+    order: 3;
     z-index: 102;
+  }
+  
+  .header-actions {
+    order: 1;
+  }
+  
+  .logo.center-logo {
+    order: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 0; /* consistent spacing */
   }
 
   .main-nav {
     position: static;
+    order: 4;
   }
 
   .main-nav ul {
