@@ -10,6 +10,8 @@ import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 
 import About from './pages/About';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
 import LanguageSwitcher from './components/LanguageSwitcher';
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
             <Route path="/subcategory/:id" element={<Subcategory />} />
             <Route path="/product/:id" element={<Product />} />
             <Route path="/service/:id" element={<Service />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>
         <Footer />

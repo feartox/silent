@@ -46,6 +46,19 @@ const Header = () => {
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
+        <div className="header-actions desktop-only">
+          <a href="tel:+18889277495" className="header-phone-btn">
+            <Phone size={18} />
+            <span>1-888-927-7495</span>
+          </a>
+        </div>
+
+        <div className="logo center-logo">
+          <Link to="/">
+            <img src="/images/logo.png" alt="Silent Guard Acoustics" />
+          </Link>
+        </div>
+        
         <nav className="main-nav desktop-only">
           <ul>
             <li className="nav-item has-dropdown">
@@ -90,19 +103,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        
-        <div className="logo center-logo">
-          <Link to="/">
-            <img src="/images/logo.png" alt="Silent Guard Acoustics" />
-          </Link>
-        </div>
-        
-        <div className="header-actions">
-          <a href="tel:+18889277495" className="header-phone-btn">
-            <Phone size={18} />
-            <span>1-888-927-7495</span>
-          </a>
-        </div>
       </div>
 
       {/* Full-Screen Mobile Menu Modal */}

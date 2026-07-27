@@ -90,7 +90,7 @@
 }
 
 .main-nav {
-  justify-self: start;
+  justify-self: end;
 }
 
 .main-nav ul {
@@ -229,7 +229,7 @@
 }
 
 .header-actions {
-  justify-self: end;
+  justify-self: start;
   display: flex;
   gap: 1rem;
 }
