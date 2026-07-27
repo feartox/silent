@@ -241,13 +241,30 @@ html {
   animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Responsive images */
+/* Responsive images and layout */
 @media (max-width: 768px) {
   h2 {
     font-size: 1.75rem;
+    margin-bottom: 2rem;
   }
   
   .container {
-    padding: 0 1rem;
+    padding: 0 1.25rem;
+  }
+  
+  /* Give sections more breathing room on mobile */
+  section, .py-5, .py-4 {
+    margin-bottom: 2.5rem;
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+  
+  .section-title {
+    margin-bottom: 2.5rem;
+  }
+  
+  /* Give extra space to grid items and cards on mobile */
+  .categories-grid, .services-showcase {
+    gap: 2rem;
   }
 }

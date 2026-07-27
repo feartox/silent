@@ -80,7 +80,7 @@
 }
 
 .site-header.scrolled .center-logo img {
-  height: 40px; /* Reduced by 50% */
+  /* Logo ufalmasın isteği üzerine boyut küçültme iptal edildi */
 }
 
 .center-logo img:hover {
