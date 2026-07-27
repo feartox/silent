@@ -151,7 +151,7 @@ const Home = () => {
 
       {/* Main Categories Grid */}
       <section className="container py-4">
-        <h2 className="section-title animate-fade-in-up delay-300">Shop By Category</h2>
+        <h2 className="section-title animate-fade-in-up delay-300">Explore Categories</h2>
         <div className="categories-grid">
           {categories.map((cat, index) => (
             <Link to={cat.link} key={cat.id} className={`category-card animate-fade-in-up delay-${(index % 5 + 1) * 100}`}>

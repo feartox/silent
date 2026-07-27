@@ -29,7 +29,7 @@ const Product = () => {
     <div className="product-page py-5">
       <SEO 
         title={product.name} 
-        description={`Buy ${product.name} at Silent Guard Acoustics. ${product.description.substring(0, 150)}...`} 
+        description={`Discover ${product.name} at Silent Guard Acoustics. ${product.description.substring(0, 150)}...`} 
       />
       <div className="container">
         {parentCategory && (

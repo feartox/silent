@@ -226,8 +226,8 @@ export const products = [
     "subcategoryId": "green-glue"
   },
   {
-    "id": "Green-Glue-Pail-5-Gallons-SPECIAL-ONLINE-ORDERING-PRICE-PLUS-FREE-LOCAL-SHIPPING-p-13",
-    "name": "Green Glue Pail 5 Gallons-SPECIAL ONLINE ORDERING PRICE PLUS FREE LOCAL SHIPPING",
+    "id": "Green-Glue-Pail-5-Gallons-p-13",
+    "name": "Green Glue Pail 5 Gallons",
     "image": "/images/products/img_0040_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "green-glue"
@@ -730,8 +730,8 @@ export const products = [
     "subcategoryId": "green-glue-ceilings"
   },
   {
-    "id": "Green-Glue-Pail-5-Gallons-SPECIAL-ONLINE-ORDERING-PRICE-PLUS-FREE-LOCAL-SHIPPING-p-13",
-    "name": "Green Glue Pail 5 Gallons-SPECIAL ONLINE ORDERING PRICE PLUS FREE LOCAL SHIPPING",
+    "id": "Green-Glue-Pail-5-Gallons-p-13",
+    "name": "Green Glue Pail 5 Gallons",
     "image": "/images/products/img_0040_thumbnail.jpg",
     "categoryId": "ceilings",
     "subcategoryId": "green-glue-ceilings"
