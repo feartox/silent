@@ -1,7 +1,7 @@
 export const services = [
   {
     "id": "soundproof-door",
-    "title": "Soundproofing  Doors",
+    "title": "Silent Guard Acoustics  Doors",
     "featureImage": "/images/services/SoundproofingDoors.jpg",
     "content": [
       {
@@ -44,7 +44,7 @@ export const services = [
   },
   {
     "id": "soundproofing-walls",
-    "title": "Soundproofing Walls",
+    "title": "Silent Guard Acoustics Walls",
     "featureImage": "/images/services/Soundproofing-walls.jpg",
     "content": [
       {
@@ -59,7 +59,7 @@ export const services = [
   },
   {
     "id": "soundproof-floors",
-    "title": "Soundproofing  Floors",
+    "title": "Silent Guard Acoustics  Floors",
     "featureImage": "/images/services/Soundproofing-floors.jpg",
     "content": [
       {
@@ -82,7 +82,7 @@ export const services = [
   },
   {
     "id": "soundproofing-windows",
-    "title": "Soundproofing  Windows",
+    "title": "Silent Guard Acoustics  Windows",
     "featureImage": "/images/services/Soundproofing-Windows-2.jpg",
     "content": [
       {
@@ -156,7 +156,7 @@ export const services = [
   },
   {
     "id": "soundproofing-ceilings",
-    "title": "Soundproofing  Ceilings",
+    "title": "Silent Guard Acoustics  Ceilings",
     "featureImage": "/images/services/Soundproofing-Ceilings.jpg",
     "content": [
       {

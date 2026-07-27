@@ -1,19 +1,37 @@
 .site-header {
-  background-color: var(--bg-color, #ffffff);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
   position: sticky;
   top: 0;
   z-index: 1000;
-  transition: background-color 0.3s ease, padding 0.3s ease, box-shadow 0.3s ease;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+  transition: padding 0.3s ease, box-shadow 0.3s ease;
+  background-color: transparent; /* Background is handled by ::before */
+}
+
+/* Pseudo-element for the glass effect to prevent browser bugs */
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bg-color, #ffffff);
+  z-index: -1;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
 }
 
 .site-header.scrolled {
-  background-color: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.site-header.scrolled::before {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .top-bar {

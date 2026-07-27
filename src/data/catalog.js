@@ -15,7 +15,7 @@ export const categories = [
       },
       {
         "id": "soundproofing-clips",
-        "name": "Soundproofing Clips",
+        "name": "Silent Guard Acoustics Clips",
         "description": "To reduce footstep and airborne noise, it's crucial to change how floors and ceilings connect. Decoupling walls with clips and channels helps block sound transfer through the structure.",
         "image": "/images/categories/Soundproofing_Clips.jpg",
         "url": "Soundproofing-Clips_c_11.html"
@@ -81,7 +81,7 @@ export const categories = [
   {
     "id": "ceilings",
     "name": "Ceilings",
-    "seoText": "<p>Total Ceiling Solutions  Ceiling treatments for sound include both soundproofing and sound absorption. Though ceilings are typically harder to work with than floors and walls, the rewards can be significant. Soundproofing Los Angeles sells products that are effective in absorbing sound reflections and preventing sound from traveling through ceilings, giving you a quieter, more relaxing environment.</p><p>Total Ceiling Solutions</p><p>Sonex Ceiling Panels Soundproofing Los Angeles is proud to feature Sonex Contour acoustical panels. Acoustical panels absorb sound to prevent reflections, creating a quieter more relaxing room. Contour panels can be placed in a ceiling grid or glued onto the ceiling, for ultimate convenience.</p><p>Ceiling Soundproofing Answers Soundproofing Los Angeles sells a system of solutions for soundproofing ceilings. Soundproofing can drastically reduce impact sounds like footsteps from the floor above, as well as airborne noise such as voices or media audio. From barriers, to clips and channels,  to visco-elastic compounds, Soundproofing Los Angeles has you covered.</p><p>Ceiling Soundproofing Answers</p>",
+    "seoText": "<p>Total Ceiling Solutions  Ceiling treatments for sound include both soundproofing and sound absorption. Though ceilings are typically harder to work with than floors and walls, the rewards can be significant. Silent Guard Acoustics sells products that are effective in absorbing sound reflections and preventing sound from traveling through ceilings, giving you a quieter, more relaxing environment.</p><p>Total Ceiling Solutions</p><p>Sonex Ceiling Panels Silent Guard Acoustics is proud to feature Sonex Contour acoustical panels. Acoustical panels absorb sound to prevent reflections, creating a quieter more relaxing room. Contour panels can be placed in a ceiling grid or glued onto the ceiling, for ultimate convenience.</p><p>Ceiling Soundproofing Answers Silent Guard Acoustics sells a system of solutions for soundproofing ceilings. Soundproofing can drastically reduce impact sounds like footsteps from the floor above, as well as airborne noise such as voices or media audio. From barriers, to clips and channels,  to visco-elastic compounds, Silent Guard Acoustics has you covered.</p><p>Ceiling Soundproofing Answers</p>",
     "subcategories": [
       {
         "id": "green-glue-ceilings",
@@ -92,7 +92,7 @@ export const categories = [
       },
       {
         "id": "soundproofing-ceilings-clips",
-        "name": "Soundproofing Ceilings Clips",
+        "name": "Silent Guard Acoustics Ceilings Clips",
         "description": "",
         "image": "/images/categories/Soundproofing_Ceilings_Clips.jpg",
         "url": "Soundproofing-Ceilings-Clips_c_25.html"
@@ -118,7 +118,7 @@ export const categories = [
     "subcategories": [
       {
         "id": "soundproofing-step-by-step",
-        "name": "Soundproofing Step By Step",
+        "name": "Silent Guard Acoustics Step By Step",
         "description": "",
         "image": "/images/categories/placeholder.jpg",
         "url": "Soundproofing-Step-By-Step_c_29.html"
@@ -132,14 +132,14 @@ export const categories = [
       },
       {
         "id": "floor-soundproofing",
-        "name": "Floor Soundproofing",
+        "name": "Floor Silent Guard Acoustics",
         "description": "",
         "image": "/images/categories/placeholder.jpg",
         "url": "view_category.asp?cat=54"
       },
       {
         "id": "wall-soundproofing",
-        "name": "Wall Soundproofing",
+        "name": "Wall Silent Guard Acoustics",
         "description": "",
         "image": "/images/categories/placeholder.jpg",
         "url": "soundproofing-good_c_48.html"

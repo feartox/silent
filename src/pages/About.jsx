@@ -14,7 +14,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="about-hero animate-fade-in-up">
         <div className="container">
-          <h1>About Soundproofing Los Angeles</h1>
+          <h1>About Silent Guard Acoustics</h1>
           <p>Your trusted partner in noise control and acoustic solutions.</p>
         </div>
       </section>
@@ -25,7 +25,7 @@ const About = () => {
           <div className="about-text">
             <h2>Our Story</h2>
             <p>
-              At Soundproofing Los Angeles, we specialize in resolving noise challenges with the most advanced and effective soundproofing and acoustic treatment solutions available. We proudly help homeowners, builders, and businesses transform their spaces into quieter, more comfortable environments.
+              At Silent Guard Acoustics, we specialize in resolving noise challenges with the most advanced and effective soundproofing and acoustic treatment solutions available. We proudly help homeowners, builders, and businesses transform their spaces into quieter, more comfortable environments.
             </p>
             <p>
               Whether you are dealing with noisy neighbors, looking to build a professional recording studio, or simply wanting to create a peaceful sanctuary in your home, our team has the expertise and the right products to make it happen. We carry a full line of soundproofing and noise reduction materials from leading manufacturers, ensuring we can supply you for whatever project you are working on.

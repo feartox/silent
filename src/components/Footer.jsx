@@ -43,9 +43,9 @@ const Footer = () => {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/category/walls">Wall Soundproofing</Link></li>
-            <li><Link to="/category/floors">Floor Soundproofing</Link></li>
-            <li><Link to="/category/ceilings">Ceiling Soundproofing</Link></li>
+            <li><Link to="/category/walls">Wall Silent Guard Acoustics</Link></li>
+            <li><Link to="/category/floors">Floor Silent Guard Acoustics</Link></li>
+            <li><Link to="/category/ceilings">Ceiling Silent Guard Acoustics</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>
           </ul>
         </div>
