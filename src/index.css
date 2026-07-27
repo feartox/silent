@@ -124,6 +124,17 @@ h2 {
   box-shadow: var(--shadow-sm);
 }
 
+.btn-outline-light {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline-light:hover {
+  border-color: #fff;
+  color: var(--primary-color);
+  background-color: #fff;
+}
+
 /* Glassmorphism Utilities */
 .glass {
   background: var(--surface-color);
