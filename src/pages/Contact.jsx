@@ -18,12 +18,34 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate form submission
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({ name: '', email: '', phone: '', interest: '', message: '' });
-    }, 5000);
+    
+    fetch("https://formsubmit.co/ajax/feartox@gmail.com", {
+      method: "POST",
+      headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          interest: formData.interest,
+          message: formData.message,
+          _subject: "New Contact Form Submission - Silent Guard Acoustics"
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      setSubmitted(true);
+      setTimeout(() => {
+        setSubmitted(false);
+        setFormData({ name: '', email: '', phone: '', interest: '', message: '' });
+      }, 6000);
+    })
+    .catch(error => {
+      console.error("Form error:", error);
+      alert("An error occurred while sending the message. Please try again.");
+    });
   };
 
   return (
