@@ -169,6 +169,120 @@
   width: 100%;
 }
 
+/* ===== FAQ SECTION ===== */
+.service-faq-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.service-faq-section h2 {
+  font-size: 2.5rem;
+  color: #0d3b2e; /* dark green */
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.faq-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.faq-item {
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.faq-item[open] {
+  background: #0d3b2e;
+  color: white;
+}
+
+.faq-question {
+  padding: 1.5rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none; /* hide default marker */
+}
+
+/* Hide default details marker in webkit */
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item[open] .faq-question {
+  color: white;
+}
+
+.faq-item:not([open]) .faq-question {
+  color: #0d3b2e;
+}
+
+.faq-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.faq-icon::before,
+.faq-icon::after {
+  content: '';
+  position: absolute;
+  background-color: currentColor;
+  transition: transform 0.3s ease;
+}
+
+/* Horizontal line (minus) */
+.faq-icon::before {
+  top: 11px;
+  left: 4px;
+  width: 16px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+/* Vertical line (plus) */
+.faq-icon::after {
+  top: 4px;
+  left: 10.5px;
+  width: 3px;
+  height: 16px;
+  border-radius: 2px;
+}
+
+/* When open, hide the vertical line to make it a minus */
+.faq-item[open] .faq-icon::after {
+  transform: scaleY(0);
+}
+
+.faq-answer {
+  padding: 0 2rem 1.5rem 2rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
+}
+
+.faq-item:not([open]) .faq-answer {
+  display: none;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 992px) {
   .service-layout {

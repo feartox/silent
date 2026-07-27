@@ -2,6 +2,25 @@ import { useParams, Link } from 'react-router-dom';
 import { services } from '../data/services';
 import './Service.css';
 
+const faqs = [
+  {
+    question: "How do I start the soundproofing process?",
+    answer: "After an initial consultation, we assess your space and noise concerns. Based on that, we offer a tailored plan that fits your needs, timeline, and budget."
+  },
+  {
+    question: "How much does soundproofing cost?",
+    answer: "Pricing depends on the scope of work, the materials used, and the surfaces to be treated (walls, windows, floors, etc.). We provide a detailed quote after evaluating your space."
+  },
+  {
+    question: "Can you soundproof existing structures?",
+    answer: "Yes! We specialize in retrofitting soundproofing solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
+  },
+  {
+    question: "How long does installation take?",
+    answer: "Most residential soundproofing projects are completed within 1–3 days, depending on the size and complexity. Commercial spaces may require additional time."
+  }
+];
+
 const Service = () => {
   const { id } = useParams();
   const service = services.find(s => s.id === id);
@@ -72,6 +91,28 @@ const Service = () => {
 
               <Link to="/contact" className="btn btn-primary btn-block mt-3">Request Consultation</Link>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* FAQ Section */}
+      <div className="container pb-5 animate-fade-in-up delay-400">
+        <div className="service-faq-section">
+          <h2>Frequently asked questions</h2>
+          <p className="faq-subtitle">Find answers to the most common questions about our soundproofing services. From installation timelines to compatibility with your current space, we cover everything you need to know about creating a quieter environment.</p>
+          
+          <div className="faq-list">
+            {faqs.map((faq, index) => (
+              <details key={index} className="faq-item">
+                <summary className="faq-question">
+                  {faq.question}
+                  <span className="faq-icon"></span>
+                </summary>
+                <div className="faq-answer">
+                  <p>{faq.answer}</p>
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </div>
