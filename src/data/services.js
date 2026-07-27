@@ -45,7 +45,7 @@ export const services = [
   {
     "id": "soundproofing-walls",
     "title": "Soundproofing Walls",
-    "featureImage": "/images/categories/placeholder.jpg",
+    "featureImage": "/images/services/Soundproofing-walls.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -60,7 +60,7 @@ export const services = [
   {
     "id": "soundproof-floors",
     "title": "Soundproofing  Floors",
-    "featureImage": "/images/categories/placeholder.jpg",
+    "featureImage": "/images/services/Soundproofing-floors.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -83,7 +83,7 @@ export const services = [
   {
     "id": "soundproofing-windows",
     "title": "Soundproofing  Windows",
-    "featureImage": "/images/categories/placeholder.jpg",
+    "featureImage": "/images/services/Soundproofing-Windows-2.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -106,7 +106,7 @@ export const services = [
   {
     "id": "sound-barrier-fence",
     "title": "Sound Barrier  Fence",
-    "featureImage": "/images/categories/placeholder.jpg",
+    "featureImage": "/images/services/Sound-Barrier-Fence.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -149,7 +149,7 @@ export const services = [
   {
     "id": "soundproofing-ceilings",
     "title": "Soundproofing  Ceilings",
-    "featureImage": "/images/categories/placeholder.jpg",
+    "featureImage": "/images/services/Soundproofing-Ceilings.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -172,7 +172,7 @@ export const services = [
   {
     "id": "soundproof-phone-meeting-booth",
     "title": "Soundproof Phone &  Meeting Booths",
-    "featureImage": "/images/categories/placeholder.jpg",
+    "featureImage": "/images/services/SoundproofPhoneMeetingBooths2.jpg",
     "content": [
       {
         "type": "paragraph",

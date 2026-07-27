@@ -78,8 +78,8 @@ const Home = () => {
       <section className="container py-5 animate-fade-in-up delay-500">
         <h2 className="section-title">Our Services</h2>
         <div className="services-showcase">
-          {services.slice(0, 3).map((service, index) => (
-            <Link to={`/service/${service.id}`} key={service.id} className={`service-card animate-fade-in-up delay-${(index + 1) * 100}`}>
+          {services.map((service, index) => (
+            <Link to={`/service/${service.id}`} key={service.id} className={`service-card animate-fade-in-up delay-${(index % 3 + 1) * 100}`}>
               <div className="service-card-image">
                 <img src={service.featureImage} alt={service.title} />
               </div>
