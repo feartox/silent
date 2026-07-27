@@ -17,7 +17,10 @@ const Home = () => {
     <div className="home-page">
       {/* Full Width Hero Section */}
       <section className="animate-fade-in-up">
-        <div className="hero hero-slide" style={{ backgroundImage: 'url(/images/hero-acoustic.jpg)' }}>
+        <div className="hero hero-slide hero-video-wrapper">
+          <video className="hero-video-bg" autoPlay muted loop playsInline>
+            <source src="/video/spla-new-lead4.webm" type="video/webm" />
+          </video>
           <div className="hero-gradient"></div>
           <div className="hero-content">
             <h1>Silence Is Not a Luxury — It's a Necessity</h1>
