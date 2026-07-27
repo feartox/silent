@@ -2,7 +2,7 @@ export const services = [
   {
     "id": "soundproof-door",
     "title": "Silent Guard Acoustics  Doors",
-    "featureImage": "/images/services/SoundproofingDoors.jpg",
+    "featureImage": "/images/services/Silent Guard AcousticsingDoors.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -14,15 +14,15 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "That’s where soundproof doors come in."
+        "content": "That’s where Silent Guard Acoustics doors come in."
       },
       {
         "type": "paragraph",
-        "content": "A soundproof door is specially engineered with high-density insulation and acoustic seals to block external noise and vibration. It’s the ideal solution for anyone who needs a quieter, more controlled environment-be it a studio, office, or private living space."
+        "content": "A Silent Guard Acoustics door is specially engineered with high-density insulation and acoustic seals to block external noise and vibration. It’s the ideal solution for anyone who needs a quieter, more controlled environment-be it a studio, office, or private living space."
       },
       {
         "type": "paragraph",
-        "content": "At Daimon, we craft custom soundproof doors tailored to your specific sound control needs."
+        "content": "At Daimon, we craft custom Silent Guard Acoustics doors tailored to your specific sound control needs."
       },
       {
         "type": "paragraph",
@@ -45,11 +45,11 @@ export const services = [
   {
     "id": "soundproofing-walls",
     "title": "Silent Guard Acoustics Walls",
-    "featureImage": "/images/services/Soundproofing-walls.jpg",
+    "featureImage": "/images/services/Silent Guard Acousticsing-walls.jpg",
     "content": [
       {
         "type": "paragraph",
-        "content": "Wall soundproofing is achieved primarily through two core methods: adding mass to block sound transmission and decoupling structures to prevent vibration transfer. By increasing the density of the wall surface, sound waves are either reflected or absorbed and converted into heat energy. Additionally, isolating wall layers from one another ensures that vibrations don’t pass through adjoining surfaces. At Silent Guard Acoustics, we apply both techniques using industry-grade materials tailored to each project’s specific needs-delivering effective and reliable sound insulation."
+        "content": "Wall Silent Guard Acousticsing is achieved primarily through two core methods: adding mass to block sound transmission and decoupling structures to prevent vibration transfer. By increasing the density of the wall surface, sound waves are either reflected or absorbed and converted into heat energy. Additionally, isolating wall layers from one another ensures that vibrations don’t pass through adjoining surfaces. At Silent Guard Acoustics, we apply both techniques using industry-grade materials tailored to each project’s specific needs-delivering effective and reliable sound insulation."
       },
       {
         "type": "paragraph",
@@ -60,15 +60,15 @@ export const services = [
   {
     "id": "soundproof-floors",
     "title": "Silent Guard Acoustics  Floors",
-    "featureImage": "/images/services/Soundproofing-floors.jpg",
+    "featureImage": "/images/services/Silent Guard Acousticsing-floors.jpg",
     "content": [
       {
         "type": "paragraph",
-        "content": "Floor soundproofing plays a critical role in achieving complete acoustic comfort-whether in residential, commercial, or shared living spaces. Depending on the type and intensity of noise, from footsteps and dropped items to loud music or children playing, different strategies must be applied."
+        "content": "Floor Silent Guard Acousticsing plays a critical role in achieving complete acoustic comfort-whether in residential, commercial, or shared living spaces. Depending on the type and intensity of noise, from footsteps and dropped items to loud music or children playing, different strategies must be applied."
       },
       {
         "type": "paragraph",
-        "content": "At Silent Guard Acoustics, we design multi-layered floor soundproofing systems that reduce both airborne and impact noise. By combining dense underlayments, insulation materials, and vibration-isolating layers, we ensure a quieter and more private space-no matter what’s happening above or below."
+        "content": "At Silent Guard Acoustics, we design multi-layered floor Silent Guard Acousticsing systems that reduce both airborne and impact noise. By combining dense underlayments, insulation materials, and vibration-isolating layers, we ensure a quieter and more private space-no matter what’s happening above or below."
       },
       {
         "type": "paragraph",
@@ -83,7 +83,7 @@ export const services = [
   {
     "id": "soundproofing-windows",
     "title": "Silent Guard Acoustics  Windows",
-    "featureImage": "/images/services/Soundproofing-Windows-2.jpg",
+    "featureImage": "/images/services/Silent Guard Acousticsing-Windows-2.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -91,11 +91,11 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "At Silent Guard Acoustics, we provide high-performance soundproof window solutions that significantly reduce outdoor noise without the need to replace your existing windows. These specially engineered windows create a powerful barrier, minimizing sound penetration and restoring indoor calm."
+        "content": "At Silent Guard Acoustics, we provide high-performance Silent Guard Acoustics window solutions that significantly reduce outdoor noise without the need to replace your existing windows. These specially engineered windows create a powerful barrier, minimizing sound penetration and restoring indoor calm."
       },
       {
         "type": "paragraph",
-        "content": "Whether it’s for your home, office, or studio, our custom-built soundproof window systems ensure tranquility, even in the heart of the city."
+        "content": "Whether it’s for your home, office, or studio, our custom-built Silent Guard Acoustics window systems ensure tranquility, even in the heart of the city."
       },
       {
         "type": "paragraph",
@@ -157,7 +157,7 @@ export const services = [
   {
     "id": "soundproofing-ceilings",
     "title": "Silent Guard Acoustics  Ceilings",
-    "featureImage": "/images/services/Soundproofing-Ceilings.jpg",
+    "featureImage": "/images/services/Silent Guard Acousticsing-Ceilings.jpg",
     "content": [
       {
         "type": "paragraph",
@@ -165,7 +165,7 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "At Silent Guard Acoustics, we offer advanced ceiling soundproofing solutions that address both impact noise (vibrations caused by movement) and airborne noise (TVs, voices, music, etc.). These sounds not only pass through ceiling surfaces, but also through joists, beams, and structural gaps-often carrying from multiple levels above."
+        "content": "At Silent Guard Acoustics, we offer advanced ceiling Silent Guard Acousticsing solutions that address both impact noise (vibrations caused by movement) and airborne noise (TVs, voices, music, etc.). These sounds not only pass through ceiling surfaces, but also through joists, beams, and structural gaps-often carrying from multiple levels above."
       },
       {
         "type": "paragraph",
@@ -179,12 +179,12 @@ export const services = [
   },
   {
     "id": "soundproof-phone-meeting-booth",
-    "title": "Soundproof Phone &  Meeting Booths",
-    "featureImage": "/images/services/SoundproofPhoneMeetingBooths2.jpg",
+    "title": "Silent Guard Acoustics Phone &  Meeting Booths",
+    "featureImage": "/images/services/Silent Guard AcousticsPhoneMeetingBooths2.jpg",
     "content": [
       {
         "type": "paragraph",
-        "content": "Silent Guard Acoustics Soundproof Booths are engineered environments designed to deliver maximum acoustic privacy in open-plan offices, co-working spaces, call centers, and public areas. Whether for confidential phone conversations or focused team discussions, our high-performance acoustic pods create a quiet, distraction-free space within even the busiest environments."
+        "content": "Silent Guard Acoustics Silent Guard Acoustics Booths are engineered environments designed to deliver maximum acoustic privacy in open-plan offices, co-working spaces, call centers, and public areas. Whether for confidential phone conversations or focused team discussions, our high-performance acoustic pods create a quiet, distraction-free space within even the busiest environments."
       },
       {
         "type": "paragraph",

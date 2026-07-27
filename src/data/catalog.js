@@ -22,8 +22,8 @@ export const categories = [
       },
       {
         "id": "soundproof-barrier",
-        "name": "Soundproof Barrier",
-        "description": "Soundproof Barrier, or Mass Loaded Vinyl (MLV), is a top noise control solution for walls, floors, and ceilings. Trusted in thousands of projects, it's an industry standard for sound mitigation.",
+        "name": "Silent Guard Acoustics Barrier",
+        "description": "Silent Guard Acoustics Barrier, or Mass Loaded Vinyl (MLV), is a top noise control solution for walls, floors, and ceilings. Trusted in thousands of projects, it's an industry standard for sound mitigation.",
         "image": "/images/categories/soundproof-barrier-wall.jpg",
         "url": "Soundproof-Barrier_c_14.html"
       },
@@ -101,7 +101,7 @@ export const categories = [
   },
   {
     "id": "soundproof-barrier",
-    "name": "Soundproof Barrier",
+    "name": "Silent Guard Acoustics Barrier",
     "seoText": "",
     "subcategories": []
   },
@@ -192,7 +192,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "green-glue"
@@ -255,7 +255,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "soundproofing-clips"
@@ -360,7 +360,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "soundproof-barrier"
@@ -374,14 +374,14 @@ export const products = [
   },
   {
     "id": "Soundproof-BarrierWeight-2-lb-Roll-4ft-x-25-ft--p-130",
-    "name": "Soundproof Barrier:Weight 2 lb, Roll  4ft x 25 ft",
+    "name": "Silent Guard Acoustics Barrier:Weight 2 lb, Roll  4ft x 25 ft",
     "image": "/images/products/soundproof_barrier_1_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "soundproof-barrier"
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "soundproof-barrier"
@@ -409,7 +409,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "acoustical-sealant"
@@ -451,7 +451,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "furring-channels"
@@ -493,7 +493,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "walls",
     "subcategoryId": "wall-accessories"
@@ -542,7 +542,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "wood-floors"
@@ -605,7 +605,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "carpet-floors"
@@ -647,7 +647,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "floors",
     "subcategoryId": "serenity-ultimate-underlay"
@@ -710,7 +710,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "ceilings",
     "subcategoryId": "green-glue-ceilings"
@@ -759,7 +759,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "ceilings",
     "subcategoryId": "soundproofing-ceilings-clips"
@@ -831,49 +831,49 @@ export const products = [
     "id": "Green-Glue-Case-12-tubes-FREE-LOCAL-SHIPPING-WHEN-ORDERING-ONLINE-p-12",
     "name": "Green Glue: Case / 12 tubes   FREE LOCAL SHIPPING WHEN ORDERING ONLINE",
     "image": "/images/products/img_0020_thumbnail.jpg",
-    "categoryId": "soundproof-barrier",
+    "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
     "id": "Vinyl-Seam-Tape-2pk-p-20",
     "name": "Vinyl Seam Tape 2pk",
     "image": "/images/products/black_vinyl_seam_tape_1_thumbnail.jpg",
-    "categoryId": "soundproof-barrier",
+    "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
     "id": "Furring-Channel-78-25g-12FT-SINGLE-p-142",
     "name": "Furring Channel- 7/8\", 25g, 12FT-SINGLE",
     "image": "/images/products/furring_channel_thumbnail.jpg",
-    "categoryId": "soundproof-barrier",
+    "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
-    "categoryId": "soundproof-barrier",
+    "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
     "id": "Acoustical-Sealant-1-Box4-tubes-p-95",
     "name": "Acoustical Sealant : 1 Box:4 tubes",
     "image": "/images/products/acoustical_sealant_box4_thumbnail.jpg",
-    "categoryId": "soundproof-barrier",
+    "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
     "id": "Soundproof-BarrierWeight-2-lb-Roll-4ft-x-25-ft--p-130",
-    "name": "Soundproof Barrier:Weight 2 lb, Roll  4ft x 25 ft",
+    "name": "Silent Guard Acoustics Barrier:Weight 2 lb, Roll  4ft x 25 ft",
     "image": "/images/products/soundproof_barrier_1_thumbnail.jpg",
-    "categoryId": "soundproof-barrier",
+    "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
-    "categoryId": "soundproof-barrier",
+    "categoryId": "Silent Guard Acoustics-barrier",
     "subcategoryId": null
   },
   {
@@ -899,7 +899,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "accessories",
     "subcategoryId": null
@@ -997,7 +997,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "soundproofing-step-by-step"
@@ -1032,7 +1032,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "datasheets"
@@ -1067,7 +1067,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "floor-soundproofing"
@@ -1102,7 +1102,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "wall-soundproofing"
@@ -1137,7 +1137,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "indoor-air-quality"
@@ -1172,7 +1172,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "instructionals",
     "subcategoryId": "leed-certified-products"
@@ -1207,7 +1207,7 @@ export const products = [
   },
   {
     "id": "Soundproof-Barrier-or-Mass-Loaded-Vinyl-MLV-1lb-18-p-196",
-    "name": "Soundproof Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
+    "name": "Silent Guard Acoustics Barrier or Mass Loaded Vinyl (MLV) 1lb 1/8\"",
     "image": "/images/products/soundproof_barrier_2_thumbnail.jpg",
     "categoryId": "green-products",
     "subcategoryId": null

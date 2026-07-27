@@ -15,7 +15,7 @@ const faqs = [
     answer: "Pricing depends on the scope of work, the materials used, and the surfaces to be treated (walls, windows, floors, etc.). We provide a detailed quote after evaluating your space."
   },
   {
-    question: "Can you soundproof existing structures?",
+    question: "Can you Silent Guard Acoustics existing structures?",
     answer: "Yes! We specialize in retrofitting Silent Guard Acoustics solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
   },
   {
@@ -327,7 +327,7 @@ const Home = () => {
       {/* CTA Section */}
       <section className="cta-section animate-fade-in-up">
         <div className="container text-center">
-          <h2>Ready to Soundproof Your Space?</h2>
+          <h2>Ready to Silent Guard Acoustics Your Space?</h2>
           <p>Get expert advice and a free consultation from our specialists.</p>
           <div className="cta-buttons">
             <Link to="/contact" className="btn btn-primary">Get a Free Consultation</Link>

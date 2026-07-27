@@ -13,7 +13,7 @@ const faqs = [
     answer: "Pricing depends on the scope of work, the materials used, and the surfaces to be treated (walls, windows, floors, etc.). We provide a detailed quote after evaluating your space."
   },
   {
-    question: "Can you soundproof existing structures?",
+    question: "Can you Silent Guard Acoustics existing structures?",
     answer: "Yes! We specialize in retrofitting Silent Guard Acoustics solutions without the need for major renovations. We work around your existing walls, doors, windows, and finishes."
   },
   {
