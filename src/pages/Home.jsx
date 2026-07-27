@@ -135,7 +135,7 @@ const Home = () => {
           ></video>
           <div className="hero-gradient"></div>
           <div className="hero-content">
-            <h1>Silence Is Not a Luxury - It's a Necessity</h1>
+            <h1>Silence Is Not a Luxury<br />It's a Necessity</h1>
             <p>Noise steals comfort - reclaim your quiet. Explore our smart and affordable soundproofing solutions.</p>
           </div>
         </div>
