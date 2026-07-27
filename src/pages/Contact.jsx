@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import './Contact.css';
+import SEO from '../components/SEO';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -49,13 +50,22 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page py-5">
-      <div className="container">
-        <div className="contact-header text-center mb-4 animate-fade-in-up">
-          <h1 className="section-title"><span>Contact Us</span></h1>
-          <p className="contact-subtitle">Get in touch with our soundproofing experts for a free consultation or general inquiries.</p>
-        </div>
+    <div className="contact-page animate-fade-in">
+      <SEO 
+        title="Contact Us" 
+        description="Get in touch with Silent Guard Acoustics for a free consultation on soundproofing your residential or commercial space." 
+      />
 
+      <section className="contact-header bg-light py-5 text-center">
+        <div className="container">
+          <div className="contact-header text-center mb-4 animate-fade-in-up">
+            <h1 className="section-title"><span>Contact Us</span></h1>
+            <p className="contact-subtitle">Get in touch with our soundproofing experts for a free consultation or general inquiries.</p>
+          </div>
+        </div>
+      </section>
+
+      <div className="container">
         <div className="contact-layout animate-fade-in-up delay-200">
           {/* Contact Information */}
           <div className="contact-info-panel">

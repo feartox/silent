@@ -1,4 +1,5 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
+import SEO from '../components/SEO';
 import { services } from '../data/services';
 import './Service.css';
 
@@ -26,16 +27,16 @@ const Service = () => {
   const service = services.find(s => s.id === id);
 
   if (!service) {
-    return (
-      <div className="container py-5 text-center">
-        <h2>Service Not Found</h2>
-        <Link to="/" className="btn btn-primary mt-3">Return Home</Link>
-      </div>
-    );
+    return <Navigate to="/" replace />;
   }
 
   return (
     <div className="service-page">
+      <SEO 
+        title={`${service.title} Services`} 
+        description={service.description} 
+      />
+
       {/* Hero Section */}
       <div 
         className="service-hero" 

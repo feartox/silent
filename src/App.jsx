@@ -7,6 +7,7 @@ import Subcategory from './pages/Subcategory';
 import Product from './pages/Product';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 import About from './pages/About';
 import LanguageSwitcher from './components/LanguageSwitcher';
@@ -14,6 +15,7 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app-container">
         <Header />
         <main className="main-content">

@@ -6,7 +6,7 @@ export const services = [
     "content": [
       {
         "type": "paragraph",
-        "content": "Whether you’re trying to focus, relax, or simply escape the constant noise of a busy home or workspace, closing the door should bring relief. But in many cases, sound still finds a way in—usually through the very door you’ve shut behind you."
+        "content": "Whether you’re trying to focus, relax, or simply escape the constant noise of a busy home or workspace, closing the door should bring relief. But in many cases, sound still finds a way in-usually through the very door you’ve shut behind you."
       },
       {
         "type": "paragraph",
@@ -18,7 +18,7 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "A soundproof door is specially engineered with high-density insulation and acoustic seals to block external noise and vibration. It’s the ideal solution for anyone who needs a quieter, more controlled environment—be it a studio, office, or private living space."
+        "content": "A soundproof door is specially engineered with high-density insulation and acoustic seals to block external noise and vibration. It’s the ideal solution for anyone who needs a quieter, more controlled environment-be it a studio, office, or private living space."
       },
       {
         "type": "paragraph",
@@ -26,7 +26,7 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "Want to know more? Get in touch—we’re here to help."
+        "content": "Want to know more? Get in touch-we’re here to help."
       },
       {
         "type": "paragraph",
@@ -49,7 +49,7 @@ export const services = [
     "content": [
       {
         "type": "paragraph",
-        "content": "Wall soundproofing is achieved primarily through two core methods: adding mass to block sound transmission and decoupling structures to prevent vibration transfer. By increasing the density of the wall surface, sound waves are either reflected or absorbed and converted into heat energy. Additionally, isolating wall layers from one another ensures that vibrations don’t pass through adjoining surfaces. At Silent Guard Acoustics, we apply both techniques using industry-grade materials tailored to each project’s specific needs—delivering effective and reliable sound insulation."
+        "content": "Wall soundproofing is achieved primarily through two core methods: adding mass to block sound transmission and decoupling structures to prevent vibration transfer. By increasing the density of the wall surface, sound waves are either reflected or absorbed and converted into heat energy. Additionally, isolating wall layers from one another ensures that vibrations don’t pass through adjoining surfaces. At Silent Guard Acoustics, we apply both techniques using industry-grade materials tailored to each project’s specific needs-delivering effective and reliable sound insulation."
       },
       {
         "type": "paragraph",
@@ -64,11 +64,11 @@ export const services = [
     "content": [
       {
         "type": "paragraph",
-        "content": "Floor soundproofing plays a critical role in achieving complete acoustic comfort—whether in residential, commercial, or shared living spaces. Depending on the type and intensity of noise, from footsteps and dropped items to loud music or children playing, different strategies must be applied."
+        "content": "Floor soundproofing plays a critical role in achieving complete acoustic comfort-whether in residential, commercial, or shared living spaces. Depending on the type and intensity of noise, from footsteps and dropped items to loud music or children playing, different strategies must be applied."
       },
       {
         "type": "paragraph",
-        "content": "At Silent Guard Acoustics, we design multi-layered floor soundproofing systems that reduce both airborne and impact noise. By combining dense underlayments, insulation materials, and vibration-isolating layers, we ensure a quieter and more private space—no matter what’s happening above or below."
+        "content": "At Silent Guard Acoustics, we design multi-layered floor soundproofing systems that reduce both airborne and impact noise. By combining dense underlayments, insulation materials, and vibration-isolating layers, we ensure a quieter and more private space-no matter what’s happening above or below."
       },
       {
         "type": "paragraph",
@@ -87,7 +87,7 @@ export const services = [
     "content": [
       {
         "type": "paragraph",
-        "content": "Urban life brings unavoidable external noise—traffic, engines, sirens, aircraft, and everyday street activity. But your home doesn’t have to be part of that chaos."
+        "content": "Urban life brings unavoidable external noise-traffic, engines, sirens, aircraft, and everyday street activity. But your home doesn’t have to be part of that chaos."
       },
       {
         "type": "paragraph",
@@ -114,7 +114,7 @@ export const services = [
     "content": [
       {
         "type": "paragraph",
-        "content": "Silent Guard Acoustics Sound Barrier is a flexible and highly effective solution designed to address noise at frequencies where traditional rigid barriers often fall short. Thanks to its unique material structure, it provides superior sound attenuation—delivering significantly better performance than standard wood or concrete walls. This makes it an ideal alternative to reflective barriers such as wooden fences or masonry walls in both commercial and residential environments."
+        "content": "Silent Guard Acoustics Sound Barrier is a flexible and highly effective solution designed to address noise at frequencies where traditional rigid barriers often fall short. Thanks to its unique material structure, it provides superior sound attenuation-delivering significantly better performance than standard wood or concrete walls. This makes it an ideal alternative to reflective barriers such as wooden fences or masonry walls in both commercial and residential environments."
       },
       {
         "type": "paragraph",
@@ -165,11 +165,11 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "At Silent Guard Acoustics, we offer advanced ceiling soundproofing solutions that address both impact noise (vibrations caused by movement) and airborne noise (TVs, voices, music, etc.). These sounds not only pass through ceiling surfaces, but also through joists, beams, and structural gaps—often carrying from multiple levels above."
+        "content": "At Silent Guard Acoustics, we offer advanced ceiling soundproofing solutions that address both impact noise (vibrations caused by movement) and airborne noise (TVs, voices, music, etc.). These sounds not only pass through ceiling surfaces, but also through joists, beams, and structural gaps-often carrying from multiple levels above."
       },
       {
         "type": "paragraph",
-        "content": "Our systems are engineered to absorb vibration, block sound waves, and prevent acoustic bridging—ensuring a quieter, more private environment below."
+        "content": "Our systems are engineered to absorb vibration, block sound waves, and prevent acoustic bridging-ensuring a quieter, more private environment below."
       },
       {
         "type": "paragraph",
@@ -192,7 +192,7 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "We offer a range of single-person phone booths, 2–4 person meeting pods, and larger collaborative units—each of which can be customized in terms of:"
+        "content": "We offer a range of single-person phone booths, 2–4 person meeting pods, and larger collaborative units-each of which can be customized in terms of:"
       },
       {
         "type": "paragraph",
@@ -220,7 +220,7 @@ export const services = [
       },
       {
         "type": "paragraph",
-        "content": "From concept to completion, Silent Guard Acoustics delivers a turnkey solution—including design consultancy, 3D layout integration, delivery, and professional installation. Our booths are designed with modular components that allow for easy relocation, quick assembly, and compliance with fire and safety standards."
+        "content": "From concept to completion, Silent Guard Acoustics delivers a turnkey solution-including design consultancy, 3D layout integration, delivery, and professional installation. Our booths are designed with modular components that allow for easy relocation, quick assembly, and compliance with fire and safety standards."
       },
       {
         "type": "paragraph",

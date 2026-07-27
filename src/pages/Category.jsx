@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import { categories, products } from '../data/catalog';
 import './Category.css';
 
@@ -19,10 +20,17 @@ const Category = () => {
   const categoryProducts = products.filter(p => p.categoryId === id && !p.subcategoryId);
 
   return (
-    <div className="category-page py-5">
-      <div className="container">
+    <div className="category-page">
+      <SEO 
+        title={`${category.name} Soundproofing`} 
+        description={`Explore our high-quality soundproofing products for ${category.name.toLowerCase()}. Find the perfect acoustic solution for your needs.`} 
+      />
+
+      <div className="bg-light py-5 mb-5 text-center">
         <h1 className="section-title animate-fade-in-up"><span>{category.name}</span></h1>
-        
+      </div>
+
+      <div className="container">
         {/* Subcategories Grid */}
         {category.subcategories && category.subcategories.length > 0 && (
           <div className="subcategories-grid mb-5">

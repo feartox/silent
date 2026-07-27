@@ -1,10 +1,16 @@
 import React from 'react';
 import './About.css';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const About = () => {
   return (
-    <div className="about-page">
+    <div className="about-page animate-fade-in">
+      <SEO 
+        title="About Us" 
+        description="Learn more about Silent Guard Acoustics. We are dedicated to providing the highest quality sound insulation solutions for homes and businesses." 
+      />
+
       {/* Hero Section */}
       <section className="about-hero animate-fade-in-up">
         <div className="container">

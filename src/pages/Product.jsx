@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import { products, categories } from '../data/catalog';
 import './Product.css';
 
@@ -26,6 +27,10 @@ const Product = () => {
 
   return (
     <div className="product-page py-5">
+      <SEO 
+        title={product.name} 
+        description={`Buy ${product.name} at Silent Guard Acoustics. ${product.description.substring(0, 150)}...`} 
+      />
       <div className="container">
         {parentCategory && (
           <div className="breadcrumbs mb-2">

@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import { services } from '../data/services';
 import { products } from '../data/catalog';
 import './Home.css';
@@ -23,7 +24,7 @@ const faqs = [
   },
   {
     question: "What types of spaces do you work on?",
-    answer: "We provide soundproofing solutions for homes, offices, studios, meeting rooms, and even outdoor barriers. Whether you need quiet to sleep, work, or record — we’ve got you covered."
+    answer: "We provide soundproofing solutions for homes, offices, studios, meeting rooms, and even outdoor barriers. Whether you need quiet to sleep, work, or record - we’ve got you covered."
   }
 ];
 
@@ -101,6 +102,11 @@ const Home = () => {
 
   return (
     <div className="home-page">
+      <SEO 
+        title="Home" 
+        description="Silent Guard Acoustics offers professional sound insulation solutions designed to reduce noise, enhance comfort, and protect your peace in any space." 
+      />
+
       {/* Full Width Hero Section */}
       <section className="animate-fade-in-up">
         <div className="hero hero-slide hero-video-wrapper">
@@ -114,8 +120,8 @@ const Home = () => {
           ></video>
           <div className="hero-gradient"></div>
           <div className="hero-content">
-            <h1>Silence Is Not a Luxury — It's a Necessity</h1>
-            <p>Noise steals comfort — reclaim your quiet. Explore our smart and affordable soundproofing solutions.</p>
+            <h1>Silence Is Not a Luxury - It's a Necessity</h1>
+            <p>Noise steals comfort - reclaim your quiet. Explore our smart and affordable soundproofing solutions.</p>
           </div>
         </div>
       </section>
@@ -124,7 +130,7 @@ const Home = () => {
       <section className="container py-5 animate-fade-in-up delay-200">
         <div className="home-seo-text">
           <h2>Welcome to your source for Soundproofing</h2>
-          <p>Enhance your living or working environment with our tailored soundproofing services — designed to block unwanted noise and boost comfort. From walls to windows, ceilings to floors, we deliver seamless solutions that match your space and acoustic needs.</p>
+          <p>Enhance your living or working environment with our tailored soundproofing services - designed to block unwanted noise and boost comfort. From walls to windows, ceilings to floors, we deliver seamless solutions that match your space and acoustic needs.</p>
         </div>
       </section>
 
@@ -223,7 +229,7 @@ const Home = () => {
                   <path d="M9 12l2 2 4-4"/>
                 </svg>
               </div>
-              <p>From homes to studios, see how we bring silence to life. With years of experience, we specialize in delivering high-performance soundproofing solutions tailored to your space — whether it's doors, walls, windows, or entire rooms. Our work blends technical precision with acoustic comfort to meet your unique needs.</p>
+              <p>From homes to studios, see how we bring silence to life. With years of experience, we specialize in delivering high-performance soundproofing solutions tailored to your space - whether it's doors, walls, windows, or entire rooms. Our work blends technical precision with acoustic comfort to meet your unique needs.</p>
             </div>
             <Link to="/contact" className="btn video-contact-btn">
               Contact Now <span className="arrow">→</span>

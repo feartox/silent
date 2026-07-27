@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import { categories, products } from '../data/catalog';
 import './Category.css';
 
@@ -32,6 +33,10 @@ const Subcategory = () => {
 
   return (
     <div className="category-page py-5">
+      <SEO 
+        title={`${subcategory.name} Soundproofing`} 
+        description={`Explore our high-quality ${subcategory.name.toLowerCase()} soundproofing products.`} 
+      />
       <div className="container">
         <div className="breadcrumbs mb-2">
           <Link to="/">Home</Link> &gt; <Link to={`/category/${parentCategory.id}`}>{parentCategory.name}</Link> &gt; <span>{subcategory.name}</span>
