@@ -61,7 +61,7 @@ const Subcategory = () => {
                   <Link to={`/product/${product.id}`} className="product-name">
                     {product.name}
                   </Link>
-                  {product.price && <span className="product-price">{product.price}</span>}
+
                   <div className="product-actions mt-1">
                     <Link to={`/product/${product.id}`} className="btn btn-outline btn-block">
                       Details

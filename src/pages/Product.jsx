@@ -38,7 +38,7 @@ const Product = () => {
           </div>
           <div className="product-details">
             <h1 className="product-title">{product.name}</h1>
-            {product.price && <div className="product-price-large">{product.price}</div>}
+
             <div className="product-description mt-2">
               <h3>Overview</h3>
               <p>{product.description || 'Professional grade soundproofing material designed to block unwanted noise and enhance comfort in your environment. Suitable for commercial and residential applications.'}</p>
