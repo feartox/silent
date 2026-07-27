@@ -49,7 +49,7 @@ const PrivacyPolicy = () => {
             <p>If you have any questions about this privacy policy or our privacy practices, please contact us at:</p>
             <p>
               Email: info@silentguardacousticspro.com<br />
-              Phone: 1-888-927-7495
+              Phone: +1 (551) 455 9345
             </p>
           </div>
         </div>

@@ -47,9 +47,9 @@ const Header = () => {
         </button>
 
         <div className="header-actions desktop-only">
-          <a href="tel:+18889277495" className="header-phone-btn">
+          <a href="tel:+15514559345" className="header-phone-btn">
             <Phone size={18} />
-            <span>1-888-927-7495</span>
+            <span>+1 (551) 455 9345</span>
           </a>
         </div>
 
@@ -177,8 +177,8 @@ const Header = () => {
         </div>
 
         <div className="mobile-modal-footer">
-          <a href="tel:+18889277495" className="btn btn-primary btn-block" style={{display: 'flex', justifyContent: 'center', gap: '8px', alignItems: 'center'}}>
-            <Phone size={20} /> Call Us: 1-888-927-7495
+          <a href="tel:+15514559345" className="btn btn-primary btn-block" style={{display: 'flex', justifyContent: 'center', gap: '8px', alignItems: 'center'}}>
+            <Phone size={20} /> Call Us: +1 (551) 455 9345
           </a>
           <Link to="/contact" className="btn btn-outline btn-block" style={{display: 'flex', justifyContent: 'center', gap: '8px', alignItems: 'center'}}>
              Send a Message

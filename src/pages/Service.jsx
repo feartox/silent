@@ -87,7 +87,7 @@ const Service = () => {
               
               <div className="service-contact-info">
                 <p><strong>Address:</strong><br />93 Commerce St,<br />Garfield, NJ 07026</p>
-                <p><strong>Phone:</strong><br /><a href="tel:+18889277495">888-927-7495</a></p>
+                <p><strong>Phone:</strong><br /><a href="tel:+15514559345">+1 (551) 455 9345</a></p>
               </div>
 
               <Link to="/contact" className="btn btn-primary btn-block mt-3">Request Consultation</Link>
