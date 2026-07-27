@@ -106,7 +106,7 @@ const Home = () => {
         <div className="hero hero-slide hero-video-wrapper">
           <video 
             className="hero-video-bg"
-            src="/video/spla-new-lead4.webm" 
+            src="/video/hero-video.mp4" 
             autoPlay 
             muted 
             loop 
