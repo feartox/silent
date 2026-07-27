@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { services } from '../data/services';
 import { products } from '../data/catalog';
@@ -29,6 +29,45 @@ const faqs = [
 
 const Home = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const carouselRef = useRef(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const carouselProducts = products.slice(0, 10);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (carouselRef.current) {
+        const item = carouselRef.current.children[0];
+        if (item) {
+          const itemWidth = item.clientWidth + 32; // Include gap
+          let nextSlide = currentSlide + 1;
+          
+          // Check if we've reached the end
+          if (carouselRef.current.scrollLeft + carouselRef.current.clientWidth >= carouselRef.current.scrollWidth - 10) {
+            nextSlide = 0;
+          }
+          
+          carouselRef.current.scrollTo({
+            left: nextSlide * itemWidth,
+            behavior: 'smooth'
+          });
+          // State is updated in handleScroll
+        }
+      }
+    }, 4000); // 4 seconds
+    return () => clearInterval(interval);
+  }, [currentSlide]);
+
+  const handleCarouselScroll = () => {
+    if (carouselRef.current) {
+      const itemWidth = carouselRef.current.children[0]?.clientWidth + 32;
+      const scrollLeft = carouselRef.current.scrollLeft;
+      const newSlide = Math.round(scrollLeft / itemWidth);
+      if (newSlide !== currentSlide && newSlide >= 0 && newSlide < carouselProducts.length) {
+        setCurrentSlide(newSlide);
+      }
+    }
+  };
 
   const categories = [
     { id: 'floors', title: 'Floors', image: '/images/home-cat-floor.webp', link: '/category/floors' },
@@ -83,27 +122,49 @@ const Home = () => {
       {/* Products Section */}
       <section className="container py-5">
         <h2 className="section-title animate-fade-in-up delay-400">Our Products</h2>
-        <div className="products-carousel">
-          {products.slice(0, 10).map((product, index) => (
-            <div key={product.id} className={`product-card animate-fade-in-up delay-${(index % 4 + 1) * 100}`}>
-              <div className="product-image">
-                <Link to={`/product/${product.id}`}>
-                  <img src={product.image} alt={product.name} />
-                </Link>
-              </div>
-              <div className="product-info">
-                <Link to={`/product/${product.id}`} className="product-name">
-                  {product.name}
-                </Link>
-
-                <div className="product-actions mt-1">
-                  <Link to={`/product/${product.id}`} className="btn btn-outline btn-block">
-                    Details
+        <div className="products-carousel-container animate-fade-in-up delay-400">
+          <div 
+            className="products-carousel" 
+            ref={carouselRef} 
+            onScroll={handleCarouselScroll}
+          >
+            {carouselProducts.map((product, index) => (
+              <div key={product.id} className="product-card">
+                <div className="product-image">
+                  <Link to={`/product/${product.id}`}>
+                    <img src={product.image} alt={product.name} />
                   </Link>
                 </div>
+                <div className="product-info">
+                  <Link to={`/product/${product.id}`} className="product-name">
+                    {product.name}
+                  </Link>
+                  <div className="product-actions mt-1">
+                    <Link to={`/product/${product.id}`} className="btn btn-outline btn-block">
+                      Details
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+          
+          <div className="carousel-dots">
+            {carouselProducts.map((_, index) => (
+              <button
+                key={index}
+                className={`carousel-dot ${currentSlide === index ? 'active' : ''}`}
+                onClick={() => {
+                  if (carouselRef.current) {
+                    const itemWidth = carouselRef.current.children[0]?.clientWidth + 32;
+                    carouselRef.current.scrollTo({ left: index * itemWidth, behavior: 'smooth' });
+                    setCurrentSlide(index);
+                  }
+                }}
+                aria-label={`Go to product slide ${index + 1}`}
+              ></button>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -158,13 +219,14 @@ const Home = () => {
                   </button>
                 </div>
               ) : (
-                <iframe 
-                  src="https://www.youtube.com/embed/9fKA1_FsLWM?autoplay=1&rel=0&modestbranding=1&showinfo=0" 
-                  title="Soundproofing Projects" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen
-                ></iframe>
+                <video 
+                  src="/video/soundproofing-projects.mp4" 
+                  autoPlay 
+                  controls 
+                  playsInline
+                  controlsList="nodownload"
+                  className="native-showcase-video"
+                ></video>
               )}
             </div>
           </div>

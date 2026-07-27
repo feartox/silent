@@ -280,6 +280,33 @@
   width: 100%;
 }
 
+.products-carousel-container {
+  position: relative;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--border-color);
+  border: none;
+  padding: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background: var(--brand-green);
+  transform: scale(1.2);
+}
+
 /* ===== SERVICES SHOWCASE ===== */
 .services-showcase {
   display: grid;
@@ -490,13 +517,20 @@
   border: 4px solid rgba(255,255,255,0.1);
 }
 
-.video-embed-wrapper iframe {
+.video-embed-wrapper iframe,
+.native-showcase-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.native-showcase-video {
+  object-fit: cover;
+  border-radius: 16px;
+  z-index: 3;
 }
 
 .video-embed-wrapper {
