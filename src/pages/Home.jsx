@@ -148,6 +148,25 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Custom Doors Section */}
+      <section className="custom-doors-section py-5 animate-fade-in-up delay-300">
+        <div className="container">
+          <div className="custom-doors-layout">
+            <div className="custom-doors-image">
+              <img src="/images/Custom-SilentGuardAcoustics-Interior-Doors.webp" alt="Custom Interior Doors" className="img-fluid rounded shadow" />
+            </div>
+            <div className="custom-doors-content">
+              <h2>Custom Interior Doors</h2>
+              <p>Experience the perfect blend of elegant design and unparalleled sound isolation. Our custom-built interior doors are engineered to block unwanted noise, ensuring your privacy and comfort without compromising on style. Perfect for home offices, bedrooms, and recording studios.</p>
+              <Link to="/service/silentguardacoustics-door" className="btn custom-doors-btn">
+                Discover Our Doors
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Products Section */}
       <section className="container py-5">
         <h2 className="section-title animate-fade-in-up delay-400">Our Products</h2>

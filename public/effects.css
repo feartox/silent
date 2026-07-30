@@ -1,0 +1,243 @@
+/* ==========================================================================
+   effects.css — kaydırma (scroll) efekt katmanı
+   silentguardacoustics.com referans alınarak hazırlandı.
+
+   GÜVENLİK: Tüm kurallar `html.sg-fx` altında. Bu sınıfı effects.js ekliyor.
+   effects.js yüklenmezse hiçbir kural devreye girmez, site eski haliyle çalışır.
+
+   ÖNEMLİ: Geçişler (transition) yalnızca AÇILIŞ durumunda (.sg-in) tanımlı.
+   Gizleme anında geçiş olsaydı, JS sınıfı eklediği anda ekranda duran içerik
+   önce solup sonra geri gelirdi. Bu şekilde gizleme anlık, açılış animasyonlu.
+   ========================================================================== */
+
+/* --- 1) Sayfa yüklenirken toptan çalışan animasyonu durdur -----------------
+   Mevcut bundle'da: .animate-fade-in-up{opacity:0;animation:.6s ... forwards fadeInUp}
+   Bu, sayfanın 11000px altındaki bölümü de ilk saniyede oynatıp bitiriyordu.
+   Artık girişleri scroll tetikliyor.                                        */
+.sg-fx .animate-fade-in-up {
+  animation: none !important;
+  opacity: 1;
+}
+
+/* --- 2) Blok girişi (aşağıdan belirme) ----------------------------------- */
+.sg-fx .sg-r {
+  opacity: 0;
+  transform: translate3d(0, 26px, 0);
+}
+.sg-fx .sg-r.sg-in {
+  opacity: 1;
+  transform: none;
+  transition: opacity .7s cubic-bezier(.16, 1, .3, 1),
+              transform .7s cubic-bezier(.16, 1, .3, 1);
+  transition-delay: var(--sg-d, 0ms);
+}
+
+/* --- 3) Başlıkta karakter karakter belirme -------------------------------
+   Referans: SplitText chars, x:20 → 0, autoAlpha 0 → 1,
+             stagger 0.03s, duration 1s, ease power2.out, tetik "top 85%"    */
+.sg-fx .sg-split .sg-w {
+  display: inline-block;
+  white-space: nowrap;   /* kelime satır ortasından bölünmesin */
+}
+.sg-fx .sg-split .sg-c {
+  display: inline-block;
+  opacity: 0;
+  transform: translate3d(20px, 0, 0);
+}
+.sg-fx .sg-split.sg-in .sg-c {
+  opacity: 1;
+  transform: none;
+  transition: opacity 1s cubic-bezier(.22, .61, .36, 1),
+              transform 1s cubic-bezier(.22, .61, .36, 1);
+  transition-delay: var(--sg-d, 0ms);
+}
+
+/* --- 4) Perde açılır görsel ----------------------------------------------
+   Referans iki katmanlı transform kullanıyor (kap -100%, görsel +100%).
+   Burada clip-path ile aynı görsel sonucu alıyoruz; yerleşimi hiç
+   bozmadığı için kart ızgaralarında güvenli.                                */
+.sg-fx .sg-img {
+  clip-path: inset(0 100% 0 0);
+}
+.sg-fx .sg-img > img {
+  transform: scale(1.06);
+}
+.sg-fx .sg-img.sg-in {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 1s cubic-bezier(.25, 1, .5, 1);
+  transition-delay: var(--sg-d, 0ms);
+}
+.sg-fx .sg-img.sg-in > img {
+  transform: none;
+  transition: transform 1.4s cubic-bezier(.25, 1, .5, 1);
+  transition-delay: var(--sg-d, 0ms);
+}
+
+/* ==========================================================================
+   Kategori metni içi zengin içerik (seoText) — tablo, başlık, liste
+   Sitenin kendi CSS'inde tablo stili yok. Bu kurallar bilinçli olarak
+   `.sg-fx` kapısının DIŞINDA: içerik stili animasyon değil, effects.js
+   yüklenmese de düzgün görünmesi gerekiyor.
+   ========================================================================== */
+.category-seo-text h3 {
+  color: var(--text-primary, #1a1a1a);
+  margin: 2.25rem 0 .5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+.category-seo-text h3:first-child { margin-top: 0; }
+
+.category-seo-text ul {
+  margin: .5rem 0 1.25rem;
+  padding-left: 1.15rem;
+  list-style: none;
+}
+.category-seo-text ul li {
+  margin-bottom: .35rem;
+  padding-left: 1rem;
+  position: relative;
+}
+.category-seo-text ul li:before {
+  content: "";
+  background-color: var(--accent-color, #2a7b52);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: .62em;
+  left: 0;
+}
+
+.category-seo-text .sg-spec-line {
+  color: var(--text-primary, #1a1a1a);
+  margin-bottom: .75rem;
+  font-size: .92rem;
+}
+
+/* --------------------------------------------------------------------------
+   Ürün kartında fiyat satırı — ürün adının altında, adından küçük
+   -------------------------------------------------------------------------- */
+.sg-card-price {
+  color: var(--accent-color, #2a7b52);
+  margin-top: .3rem;
+  font-size: .88rem;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+
+/* --------------------------------------------------------------------------
+   Ürün detay sayfasındaki teknik blok (specsHtml)
+   -------------------------------------------------------------------------- */
+.sg-spec-block { margin-top: 1.75rem; }
+
+.sg-spec-block .sg-spec-heading {
+  color: var(--text-primary, #1a1a1a);
+  margin: 1.5rem 0 .6rem;
+  font-size: .95rem;
+  font-weight: 700;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+}
+.sg-spec-block .sg-spec-heading:first-child { margin-top: 0; }
+
+/* satır başlıklı (dikey) tablo — detay sayfasının sütunu dar olduğu için
+   yatay kaydırma eşiği kaldırılıyor */
+.sg-spec-rows { min-width: 0; }
+.sg-spec-rows th {
+  color: var(--text-primary, #1a1a1a);
+  background-color: #00000005;
+  width: 34%;
+  font-size: .85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.sg-spec-rows td { font-size: .9rem; }
+.sg-spec-rows .sg-price-cell {
+  color: var(--accent-color, #2a7b52);
+  font-size: .98rem;
+  font-weight: 700;
+}
+
+.sg-feature-list {
+  margin: 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+.sg-feature-list li {
+  margin-bottom: .35rem;
+  padding-left: 1.15rem;
+  font-size: .9rem;
+  position: relative;
+}
+.sg-feature-list li:before {
+  content: "";
+  background-color: var(--accent-color, #2a7b52);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: .6em;
+  left: 0;
+}
+
+.sg-spec-note {
+  color: var(--text-secondary, #666);
+  border-top: 1px solid #00000012;
+  margin-top: 1.25rem;
+  padding-top: .9rem;
+  font-size: .82rem;
+}
+
+/* geniş tablo küçük ekranda sayfayı yatay kaydırmasın, kendi içinde kaysın */
+.sg-table-wrap {
+  overflow-x: auto;
+  margin: 1.25rem 0 2rem;
+  -webkit-overflow-scrolling: touch;
+}
+.sg-spec-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 560px;
+  font-size: .9rem;
+}
+.sg-spec-table th,
+.sg-spec-table td {
+  border-bottom: 1px solid #00000014;
+  padding: .7rem .9rem;
+  text-align: left;
+}
+.sg-spec-table thead th {
+  background-color: var(--accent-color, #2a7b52);
+  color: #fff;
+  border-bottom: none;
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.sg-spec-table tbody tr:nth-child(2n) { background-color: #00000005; }
+.sg-spec-table tbody tr:hover { background-color: #2a7b520f; }
+/* Yatay (başlık satırlı) tabloda son sütun fiyattır, tek satırda kalsın.
+   :not(.sg-spec-rows) şart: dikey tabloda HER hücre td:last-child olduğu için
+   bu kural uzun metinleri de tek satıra sıkıştırıp taşırıyordu. */
+.sg-spec-table:not(.sg-spec-rows) td:last-child {
+  color: var(--text-primary, #1a1a1a);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.sg-spec-rows td { white-space: normal; }
+
+/* --- 5) Hareket azaltma tercihine saygı ---------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .sg-fx .sg-r,
+  .sg-fx .sg-split .sg-c,
+  .sg-fx .sg-img,
+  .sg-fx .sg-img > img {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+    transition: none !important;
+  }
+}
